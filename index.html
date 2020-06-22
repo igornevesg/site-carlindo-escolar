@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="container">
+    <header class="flex-1">
+        <a href="#"> <img class="logo" src="./images/logo-site.png" alt="Logotipo Carlindo Escolar"> </a>
+        <nav class="topnav" id="myTopNav">
+            <ul class="inicio">
+                <a href="#">Início</a></li>
+                <a href="#">Sobre Nós</a></li>
+                <a href="#">Itinerário</a></li>
+                <a href="#">Nossa Equipe</a></li>
+                <a href="#">Contato</a></li>
+                <button type="button" class="botao-nav">Contrate Já</button>
+                <a href="javascript:void(0);" class="icon" onclick="abrirMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex-2">
+        <div class="item1-content1">
+            <h1> Nós cuidamos do seu filho! </h1>
+            <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque id ad provident aliquid fuga reiciendis possimus perferendis consequatur nihil, error saepe, velit cupiditate facere officia modi laborum doloremque? Quos, temporibus.</p>
+            <button type="button" class="botao-nav" id="botao2">Contrate Já</button>
+        </div>
+        <div class="item2-content1"> <img class="imagem-filhos" src="./images/filhos.png" alt="Monitora segurando a mão de crianças"> </div>
+    </div>
+    <div class="flex-3">
+        <div class="item1-content2">
+            <h2> Segurança em primeiro lugar </h2>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam excepturi in necessitatibus! Repellat consequatur officiis veniam ullam, dolore autem quidem dolorem minima reiciendis deleniti dicta voluptate, sequi libero ipsam quis.</p>
+        </div>
+        <div class="item2-content2"> <img class="imagem-onibus" src="./images/onibus.png" alt="vetor de onibus escolar"> </div>
+    </div>
+    <div class="flex-4">
+        <h3> Está procurando por qual serviço? </h3>
+        <div class="fotos">
+            <img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo" onmousemove="escolar()">
+            <img class="foto-jovem" src="./Images/faculdade.jpg" alt="universitária segurando cadernos">
+        </div>
+    </div>
+    <div class="flex-5">
+        <h4>Por que nos escolher?</h4>
+        <form action=""></form>
+        <div class="blocos">
+            <div class="veiculos">
+                <img class="vetor-bus" src="./Images/veiculos.png" alt="vetor de ônibus">
+                <p class="p3">Veículos Vistoriados</p>
+                <hr class="linha">
+                <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
+            </div>
+            <div class="motoristas">
+                <img class="credencial" src="./Images/credencial.png" alt="credencial motorista">
+                <p>Motoristas Credenciados</p>
+                <hr class="linha">
+                <span></span>
+            </div>
+            <div class="monitoras">
+                <img class="imagem-monitoras" src="./Images/monitoras.png" alt="monitora levando alunos">
+            </div>
+            <div class="experiencia">
+                <img class="imagem-experiencia" src="./Images/experiencia.png" alt="experiencia 5 estrelas">
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <footer>
+        <p>Copyright &copy; Fliz Soluções Web</p>
+        <p>Criado por Fliz Soluções Web</p>
+    </footer>
+    <script type="text/javascript" href="./js/menu.js">
+        function escolar() {
+            let mouse = document.getElementsByClassName("foto-crianca")
+            escolar.classList.toggle('fade')
+        }
+    </script>
+</body>
+
+</html>
