@@ -9,4 +9,5 @@ function abrirMenu() {
 
 function escolar() {
     var mouse = document.getElementsByClassName("foto-criança")
+    mouse.innerText: 'Clicou'
 }

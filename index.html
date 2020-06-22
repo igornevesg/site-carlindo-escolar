@@ -45,8 +45,8 @@
     <div class="flex-4">
         <h3> Está procurando por qual serviço? </h3>
         <div class="fotos">
-            <img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo" onmousemove="escolar()">
-            <img class="foto-jovem" src="./Images/faculdade.jpg" alt="universitária segurando cadernos">
+            <a href="#"><img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo" onmouseenter="escolar()"></a>
+            <a href="#"><img class="foto-jovem" src="./Images/faculdade.jpg" alt="universitária segurando cadernos"></a>
         </div>
     </div>
     <div class="flex-5">
@@ -80,10 +80,9 @@
         <p>Copyright &copy; Fliz Soluções Web</p>
         <p>Criado por Fliz Soluções Web</p>
     </footer>
-    <script type="text/javascript" href="./js/menu.js">
+    <script>
         function escolar() {
-            let mouse = document.getElementsByClassName("foto-crianca")
-            escolar.classList.toggle('fade')
+            var x = document.getElementById("foto-crianca").innerText = ("ESCOLAR")
         }
     </script>
 </body>

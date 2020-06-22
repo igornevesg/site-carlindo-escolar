@@ -60,15 +60,11 @@ body {
     overflow: hidden;
 }
 
-button:hover:before {
+.botao-nav:hover:before {
     transform: translate(-25%, -25%) rotate(-180deg);
 }
 
-button:hover {
-    background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
-}
-
-.botao.nav:hover {
+.botao-nav:hover {
     background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
 }
 
@@ -158,13 +154,15 @@ h2 {
     text-align: center;
 }
 
+.fotos img:hover {
+    filter: brightness(60%);
+    transition: all 1s ease;
+    position: relative;
+}
+
 .foto-crianca {
     width: 50vh;
     padding: 10px;
-}
-
-.foto-crianca:hover {
-    color: #000000;
 }
 
 .foto-jovem {
