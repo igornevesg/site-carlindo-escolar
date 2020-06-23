@@ -45,46 +45,71 @@
     <div class="flex-4">
         <h3> Está procurando por qual serviço? </h3>
         <div class="fotos">
-            <a href="#"><img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo" onmouseenter="escolar()"></a>
+            <a href="#"><img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo"></a>
+            <a href="#" class="no-decoration">
+                <p class="school">ESCOLAR</p>
+            </a>
             <a href="#"><img class="foto-jovem" src="./Images/faculdade.jpg" alt="universitária segurando cadernos"></a>
+            <a href="#" class="no-decoration">
+                <p class="school" id="facul"> FACULDADE</p>
+            </a>
         </div>
+    </div>
     </div>
     <div class="flex-5">
-        <h4>Por que nos escolher?</h4>
-        <form action=""></form>
         <div class="blocos">
-            <div class="veiculos">
-                <img class="vetor-bus" src="./Images/veiculos.png" alt="vetor de ônibus">
-                <p class="p3">Veículos Vistoriados</p>
-                <hr class="linha">
-                <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
+            <h4>Por que nos escolher?</h4>
+            <div class="bloco1">
+                <div class="veiculos">
+                    <img class="vetor-bus" src="./Images/veiculos.png" alt="vetor de ônibus">
+                    <p class="p-divs">Veículos Vistoriados</p>
+                    <hr class="linha">
+                    <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
+                </div>
+                <div class="motoristas">
+                    <img class="credencial" src="./Images/credencial.png" alt="credencial motorista">
+                    <p class="p-divs">Motoristas Credenciados</p>
+                    <hr class="linha">
+                    <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
+                </div>
             </div>
-            <div class="motoristas">
-                <img class="credencial" src="./Images/credencial.png" alt="credencial motorista">
-                <p>Motoristas Credenciados</p>
-                <hr class="linha">
-                <span></span>
-            </div>
-            <div class="monitoras">
-                <img class="imagem-monitoras" src="./Images/monitoras.png" alt="monitora levando alunos">
-            </div>
-            <div class="experiencia">
-                <img class="imagem-experiencia" src="./Images/experiencia.png" alt="experiencia 5 estrelas">
+            <div class="bloco2">
+                <div class="monitoras">
+                    <img class="imagem-monitoras" src="./Images/monitoras.png" alt="monitora levando alunos">
+                    <p class="p-divs">Monitoras Qualificadas</p>
+                    <hr class="linha">
+                    <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
+                </div>
+                <div class="experiencia">
+                    <img class="imagem-experiencia" src="./Images/experiencia.png" alt="experiencia 5 estrelas">
+                    <p class="p-divs">Experiência</p>
+                    <hr class="linha">
+                    <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
+                </div>
             </div>
         </div>
+        <div class="formulario">
+            <form action="/receber_dados.php" method="get"></form>
+            <h5>Verifique a disponibilidade de rotas</h5>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="tel" name="contactnum" id="contactnum" placeholder="Número de Contato">
+            <input type="text" name="mensagem" id="msg" placeholder="Sua mensagem">
+            <input type="button" value="Enviar mensagem">
+            <a href="https://wa.me/5538991565540" target="_blank"> <input type="button" value="Whatsapp"></a>
+        </div>
     </div>
-    <div>
-
+    <div class="flex-6">
+        <h6>Depoimentos de nossos Clientes</h6>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos voluptatum unde, sed nemo natus nihil doloremque temporibus. Eius, ad! Laboriosam tenetur beatae ea deserunt unde? Accusantium placeat doloremque velit!</p>
+        <span>Howard Chavez</span>
+        <span>Empreendedor</span>
     </div>
     <footer>
         <p>Copyright &copy; Fliz Soluções Web</p>
         <p>Criado por Fliz Soluções Web</p>
     </footer>
-    <script>
-        function escolar() {
-            var x = document.getElementById("foto-crianca").innerText = ("ESCOLAR")
-        }
-    </script>
 </body>
 
 </html>

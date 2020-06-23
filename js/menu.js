@@ -6,8 +6,3 @@ function abrirMenu() {
         x.className = "topnav";
     }
 }
-
-function escolar() {
-    var mouse = document.getElementsByClassName("foto-criança")
-    mouse.innerText: 'Clicou'
-}
