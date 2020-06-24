@@ -14,11 +14,11 @@
         <a href="#"> <img class="logo" src="./images/logo-site.png" alt="Logotipo Carlindo Escolar"> </a>
         <nav class="topnav" id="myTopNav">
             <ul class="inicio">
-                <a href="#">Início</a></li>
-                <a href="#">Sobre Nós</a></li>
-                <a href="#">Itinerário</a></li>
-                <a href="#">Nossa Equipe</a></li>
-                <a href="#">Contato</a></li>
+                <a href="#">Início</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Itinerário</a>
+                <a href="#">Nossa Equipe</a>
+                <a href="#">Contato</a>
                 <button type="button" class="botao-nav">Contrate Já</button>
                 <a href="javascript:void(0);" class="icon" onclick="abrirMenu()">
                     <i class="fa fa-bars"></i>
@@ -91,25 +91,52 @@
         <div class="formulario">
             <form action="/receber_dados.php" method="get"></form>
             <h5>Verifique a disponibilidade de rotas</h5>
-            <input type="text" name="name" id="name" placeholder="Name">
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <input type="tel" name="contactnum" id="contactnum" placeholder="Número de Contato">
-            <input type="text" name="mensagem" id="msg" placeholder="Sua mensagem">
-            <input type="button" value="Enviar mensagem">
-            <a href="https://wa.me/5538991565540" target="_blank"> <input type="button" value="Whatsapp"></a>
+            <input class="form-control" type="text" name="name" id="name" placeholder="Name">
+            <input class="form-control" type="email" name="email" id="email" placeholder="E-mail">
+            <input class="form-control" type="tel" name="contactnum" id="contactnum" placeholder="Número de Contato">
+            <input class="form-control" type="text" name="mensagem" id="msg" placeholder="Sua mensagem">
+            <input class="button-msg" type="button" value="Enviar mensagem">
+            <a href="https://wa.me/5538991565540" target="_blank"> <input class="button-wpp" type="button" value="Whatsapp"></a>
         </div>
     </div>
     <div class="flex-6">
         <h6>Depoimentos de nossos Clientes</h6>
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos voluptatum unde, sed nemo natus nihil doloremque temporibus. Eius, ad! Laboriosam tenetur beatae ea deserunt unde? Accusantium placeat doloremque velit!</p>
-        <span>Howard Chavez</span>
-        <span>Empreendedor</span>
+        <div class="depoimento">
+            <img src="./Images/perfil.png" alt="imagem do cliente">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos voluptatum unde, sed nemo natus nihil doloremque temporibus. Eius, ad! Laboriosam tenetur beatae ea deserunt unde? Accusantium placeat doloremque velit!</p>
+            <span class="cliente-nome">Howard Chavez</span>
+            <span>Empreendedor</span>
+        </div>
     </div>
     <footer>
+        <nav class="info">
+            <p>Informações</p>
+            <ul class="info">
+                <a class="no-decoration" href="#">Sobre Nós</a><br/>
+                <a class="no-decoration" href="#">Termos e Condições</a><br/>
+                <a class="no-decoration" href="#">Política de Privacidade</a><br/>
+            </ul>
+        </nav>
+        <nav class="links">
+            <p>Links Úteis</p>
+            <ul>
+                <a class="no-decoration" href="#">Perguntas Frequentes</a><br/>
+                <a class="no-decoration" href="#">Contrate nosso serviço</a><br/>
+                <a class="no-decoration" href="#">Nossa Frota</a><br/>
+            </ul>
+        </nav>
+        <div class="contato">
+            <p>Contato</p>
+            <address>
+                Avenida das Américas, 165,<br/> Dr. João Alves - Montes Claros-MG
+            </address>
+            <span>Telefones: (38) 9 9156-5540 / (38) 9 9979-1992 / (38) 3084-1414</span>
+            <span>E-mail: carlindoescolar@gmail.com</span>
+        </div>
         <p>Copyright &copy; Fliz Soluções Web</p>
         <p>Criado por Fliz Soluções Web</p>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

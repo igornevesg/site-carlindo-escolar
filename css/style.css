@@ -57,7 +57,6 @@ body {
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--title-white);
     background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
     cursor: pointer;
     transition: all 0.5s;
@@ -140,7 +139,7 @@ h1 {
 
 h2 {
     font-size: 50px;
-    color: white;
+    color: #E4C332;
     text-align: left;
 }
 
@@ -179,8 +178,8 @@ h2 {
     cursor: pointer;
     opacity: 0;
     filter: brightness(0%);
-    transition: all 1s ease;
-    padding: 213px 0px;
+    transition: all 0.3s ease;
+    padding: 207px 0px;
     width: 50vh;
     background: rgba(0, 0, 0, 0.25);
 }
@@ -219,10 +218,8 @@ h3 {
 
 .blocos {
     grid-area: 1/1;
-}
-
-.vetor-bus {
-    width: 25vh;
+    position: relative;
+    bottom: 30px;
 }
 
 .linha {
@@ -232,12 +229,17 @@ h3 {
 }
 
 h4 {
-    font-size: 36px;
+    grid-area: 1/1;
+    font-size: 46px;
     text-align: center;
-    color: white;
+    color: #E4C332;
+    position: relative;
+    left: 240px;
+    bottom: 20px;
 }
 
 .p-divs {
+    font-weight: 700;
     font-size: 20px;
     position: relative;
     bottom: 30px;
@@ -273,19 +275,11 @@ span {
     margin: 10px;
 }
 
-.credencial {
-    width: 25vh;
-}
-
 .monitoras {
     background: white;
     border-radius: 8px;
     width: 30vh;
     margin: 10px;
-}
-
-.imagem-monitoras {
-    width: 25vh;
 }
 
 .experiencia {
@@ -295,25 +289,186 @@ span {
     margin: 10px;
 }
 
+.vetor-bus {
+    width: 20vh;
+}
+
+.credencial {
+    width: 20vh;
+}
+
+.imagem-monitoras {
+    width: 20vh;
+}
+
 .imagem-experiencia {
-    width: 25vh;
+    width: 20vh;
 }
 
 .formulario {
     background: white;
     grid-area: 1/2;
+    position: relative;
+    top: 186px;
+    border-radius: 8px;
+    padding: 5vh;
+    height: 63vh;
+    width: 45vh;
 }
+
+h5 {
+    font-size: 30px;
+    word-wrap: none;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+}
+
+.button-msg {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    top: 20px;
+    color: #111A47;
+    margin: 10px;
+}
+
+.button-wpp {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--title-white);
+    background: linear-gradient(118.1deg, #25d366 -2.02%, #11ad4a 129.72%);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    top: 20px;
+    color: white;
+    margin: 10px;
+}
+
+
+/* Quinta Div */
 
 .flex-6 {
     background: white;
     padding: 100px 400px;
 }
 
+h6 {
+    font-size: 36px;
+    color: #111A47;
+}
+
+.depoimento {
+    background-color: #e1dfdf;
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.depoimento img {
+    width: 400px;
+    margin-bottom: -40px;
+    margin-top: -40px;
+}
+
+.depoimento p {
+    font-size: 16px;
+    width: 400px;
+    margin: auto;
+}
+
+.depoimento span {
+    display: list-item;
+    font-size: 14px;
+    list-style: none;
+}
+
+.cliente-nome {
+    margin-top: 40px;
+}
+
+
+/* Footer */
+
 footer {
+    padding: 100px 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.25fr;
     background-color: #111A47;
+}
+
+.info {
+    color: white;
+    line-height: 50px;
+}
+
+.info p {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    left: 38px;
+    color: #E4C332;
+}
+
+.info a {
+    color: white;
+}
+
+.info ul {
+    text-align: left;
+}
+
+.links {
+    color: white;
+    line-height: 50px;
+}
+
+.links p {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    left: 38px;
+    color: #E4C332;
+}
+
+.links a {
+    color: white;
+}
+
+.links ul {
+    text-align: left;
+}
+
+.contato {
+    color: white;
+    text-align: left;
+    line-height: 50px;
+}
+
+.contato p {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    left: 38px;
+    color: #E4C332;
 }
 
 @media screen and (max-width: 600px) {
