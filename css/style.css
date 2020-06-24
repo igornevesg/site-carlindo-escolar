@@ -163,6 +163,7 @@ h2 {
 .foto-crianca {
     width: 50vh;
     padding: 10px;
+    box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.26);
 }
 
 .school {
@@ -197,6 +198,7 @@ h2 {
 .foto-jovem {
     width: 50vh;
     padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
 }
 
 h3 {
@@ -320,6 +322,7 @@ h5 {
     font-size: 30px;
     word-wrap: none;
     margin-bottom: 30px;
+    color: #111A47;
 }
 
 .form-control {
@@ -373,15 +376,16 @@ h6 {
 }
 
 .depoimento {
-    background-color: #e1dfdf;
+    background-color: #f7f7f7;
     width: 600px;
     margin: auto;
     border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.26);
 }
 
 .depoimento img {
     width: 400px;
-    margin-bottom: -40px;
+    margin-bottom: -50px;
     margin-top: -40px;
 }
 
@@ -395,10 +399,11 @@ h6 {
     display: list-item;
     font-size: 14px;
     list-style: none;
+    font-weight: 700;
 }
 
 .cliente-nome {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 
@@ -466,9 +471,18 @@ footer {
     font-size: 30px;
     font-weight: 700;
     text-align: left;
-    position: relative;
-    left: 38px;
     color: #E4C332;
+}
+
+.contato span {
+    font-size: 14px;
+    position: relative;
+    right: 20px;
+    top: 5px;
+}
+
+.tel {
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
