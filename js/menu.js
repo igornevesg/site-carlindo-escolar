@@ -6,3 +6,7 @@ function abrirMenu() {
         x.className = "topnav";
     }
 }
+
+window.location = "#wall-1";
+
+function forward() {}

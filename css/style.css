@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+
 #container {
     display: flex;
     flex-direction: column;
@@ -12,6 +14,10 @@ body {
 
 .no-decoration {
     text-decoration: none;
+}
+
+.no-decoration:hover {
+    opacity: 0.7;
 }
 
 
@@ -413,7 +419,7 @@ footer {
     padding: 100px 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.25fr;
+    grid-template-rows: 1fr;
     background-color: #111A47;
 }
 
@@ -442,6 +448,8 @@ footer {
 .links {
     color: white;
     line-height: 50px;
+    position: relative;
+    left: 60px;
 }
 
 .links p {
@@ -479,10 +487,56 @@ footer {
     position: relative;
     right: 20px;
     top: 5px;
+    white-space: nowrap;
 }
 
 .tel {
     margin-top: 20px;
+}
+
+.white-text {
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.copy {
+    color: white;
+    position: relative;
+    right: 30px;
+}
+
+.social {
+    font-size: 30px;
+}
+
+.fa {
+    position: relative;
+    right: 30px;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-angle-right {
+    color: black;
+    font-size: auto;
+    padding: 0px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fim {
+    position: relative;
+    top: 80px;
+    display: inline-flex;
+    white-space: nowrap;
+    margin: auto;
 }
 
 @media screen and (max-width: 600px) {

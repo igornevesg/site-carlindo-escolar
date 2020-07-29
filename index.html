@@ -11,7 +11,7 @@
 
 <body id="container">
     <header class="flex-1">
-        <a href="#"> <img class="logo" src="./images/logo-site.png" alt="Logotipo Carlindo Escolar"> </a>
+        <a href="#"> <img class="logo" src="./Images/logo-site.png" alt="Logotipo Carlindo Escolar"> </a>
         <nav class="topnav" id="myTopNav">
             <ul class="inicio">
                 <a href="#">Início</a>
@@ -89,18 +89,19 @@
             </div>
         </div>
         <div class="formulario">
-            <form action="/receber_dados.php" method="get"></form>
+            <form action="processa.php" name="meu-form" method="POST"></form>
             <h5>Verifique a disponibilidade de rotas</h5>
-            <input class="form-control" type="text" name="name" id="name" placeholder="Nome">
+            <input class="form-control" type="text" name="nome" id="name" placeholder="Nome">
             <input class="form-control" type="email" name="email" id="email" placeholder="E-mail">
             <input class="form-control" type="tel" name="contactnum" id="contactnum" placeholder="Número de Contato">
-            <input class="form-control" type="text" name="mensagem" id="msg" placeholder="Sua mensagem">
-            <input class="button-msg" type="button" value="Enviar mensagem">
+            <textarea name="mensagem" class="form-control" cols="50" rows="4" placeholder="Mensagem"></textarea>
+            <input class="button-msg" type="submit" name="submit" value="Enviar mensagem">
             <a href="https://wa.me/5538991565540" target="_blank"> <input class="button-wpp" type="button" value="Whatsapp"></a>
         </div>
     </div>
     <div class="flex-6">
         <h6>Depoimentos de nossos clientes</h6>
+        <a class="fa fa-angle-right" onclick="forward()"></a>
         <div class="depoimento">
             <img src="./Images/perfil.png" alt="imagem do cliente">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos voluptatum unde, sed nemo natus nihil doloremque temporibus. Eius, ad! Laboriosam tenetur beatae ea deserunt unde? Accusantium placeat doloremque velit!</p>
@@ -133,8 +134,15 @@
             <span class="tel">Telefones: (38) 9 9156-5540 / (38) 9 9979-1992</span>
             <span>E-mail: carlindoescolar@gmail.com</span>
         </div>
-        <p>Copyright &copy; Fliz Soluções Web</p>
-        <p>Criado por Fliz Soluções Web</p>
+        <div class="social">
+            <a href="https://www.facebook.com/carlindoescolar/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://wa.me/5538991565540" target="_blank" class="fa fa-whatsapp"></a>
+            <a href="https://www.instagram.com/carlindoescolar" target="_blank" class="fa fa-instagram"></a>
+        </div>
+        <div class="fim">
+            <p class="copy">Copyright &copy; Carlindo Escolar</p>
+            <p class="white-text">Criado por Fliz Soluções Web</p>
+
     </footer>
     <script src="./js/menu.js"></script>
 </body>
