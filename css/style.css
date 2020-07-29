@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
-
-
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
 #container {
     display: flex;
     flex-direction: column;
@@ -113,15 +117,14 @@ h1 {
     color: #111A47;
     text-align: left;
     position: relative;
-    bottom: 10px;
     font-weight: 400;
 }
 
 #botao2 {
-    padding: 20px 60px;
+    padding: 15px 75px;
     margin: 0px;
     float: left;
-    top: 10px;
+    top: 20px;
 }
 
 
@@ -178,8 +181,8 @@ h2 {
     text-align: center;
     margin: auto;
     position: absolute;
-    top: 10px;
-    left: 70px;
+    top: 0px;
+    left: 80px;
     color: yellow;
     font-weight: bold;
     cursor: pointer;
@@ -198,7 +201,7 @@ h2 {
 }
 
 #facul {
-    left: 564px;
+    left: 554px;
 }
 
 .foto-jovem {
@@ -211,6 +214,7 @@ h3 {
     font-size: 36px;
     text-align: center;
     color: #111A47;
+    padding: 60px;
 }
 
 
@@ -233,7 +237,8 @@ h3 {
 .linha {
     width: 70%;
     position: relative;
-    bottom: 33px;
+    left: 40px;
+    bottom: 27px;
 }
 
 h4 {
@@ -265,8 +270,8 @@ h4 {
 span {
     font-size: 12px;
     position: relative;
+    text-align: center;
     bottom: 30px;
-    margin: 0px 20px 0px 20px;
 }
 
 .veiculos {
@@ -274,6 +279,14 @@ span {
     border-radius: 8px;
     width: 30vh;
     margin: 10px;
+}
+.veiculos i {
+    left: 0px;
+    margin: auto;
+    font-size: 5vw;
+    padding: 50px;
+    width: auto;
+    color: #111A47;
 }
 
 .motoristas {
@@ -297,10 +310,6 @@ span {
     margin: 10px;
 }
 
-.vetor-bus {
-    width: 20vh;
-}
-
 .credencial {
     width: 20vh;
 }
@@ -317,11 +326,11 @@ span {
     background: white;
     grid-area: 1/2;
     position: relative;
-    top: 186px;
+    top: 63px;
     border-radius: 8px;
     padding: 5vh;
     height: 63vh;
-    width: 45vh;
+    width: 29vw;
 }
 
 h5 {
@@ -483,9 +492,7 @@ footer {
 }
 
 .contato span {
-    font-size: 14px;
-    position: relative;
-    right: 20px;
+    font-size: 16px;
     top: 5px;
     white-space: nowrap;
 }
@@ -539,6 +546,30 @@ footer {
     margin: auto;
 }
 
+@media screen and (max-width: 1440px) {
+    .flex-1 {
+        padding: 10px 150px;
+    }
+
+    .flex-2 {
+        padding: 100px 150px;
+    }
+    .flex-3 {
+        padding: 100px 150px;
+    }
+    .flex-4 {
+        padding: 100px 150px;
+    }
+    .flex-5 {
+        padding: 100px 150px;
+    }
+    .flex-6 {
+        padding: 100px 150px;
+    }
+    footer {
+        padding: 100px 150px;
+    }
+}
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
