@@ -7,6 +7,12 @@ function abrirMenu() {
     }
 }
 
-window.location = "#wall-1";
+var images = []
 
-function forward() {}
+function forward() {
+    document.getElementById("paragrafo").innerHTML = "Paragraph Changed";
+}
+
+function backward() {
+    document.getElementById("paragrafo").innerHTML = "Paragraph back";   
+}

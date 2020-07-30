@@ -434,6 +434,12 @@ h5 {
 
 .flex-6 i {
     color: black;
+    font-size: 24px;
+    padding: 80px 50px 0px 50px;
+    position: relative;
+    left: 0px;
+    margin: auto;
+    cursor: pointer;
 }
 
 h6 {
@@ -482,6 +488,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: #111A47;
+    margin: auto;
 }
 
 .info {
@@ -493,8 +500,7 @@ footer {
     font-size: 30px;
     font-weight: 700;
     text-align: left;
-    position: relative;
-    left: 38px;
+    margin-bottom: 20px;
     color: #E4C332;
 }
 
@@ -517,8 +523,7 @@ footer {
     font-size: 30px;
     font-weight: 700;
     text-align: left;
-    position: relative;
-    left: 38px;
+    margin-bottom: 20px;
     color: #E4C332;
 }
 
@@ -540,6 +545,7 @@ footer {
     font-size: 30px;
     font-weight: 700;
     text-align: left;
+    margin-bottom: 20px;
     color: #E4C332;
 }
 
@@ -571,7 +577,7 @@ footer {
 
 .fa {
     position: relative;
-    right: 50px;
+    right: 120px;
     bottom: 30px;
     padding: 20px;
     font-size: 30px;
