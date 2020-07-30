@@ -4,7 +4,9 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 #container {
     display: flex;
     flex-direction: column;
@@ -13,7 +15,6 @@
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .no-decoration {
@@ -99,6 +100,14 @@ body {
     grid-area: 1/1;
 }
 
+.item1-content1 p {
+    color: #111A47;
+    text-align: left;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 .item2-content1 {
     grid-area: 1/2;
 }
@@ -111,13 +120,8 @@ h1 {
     font-size: 50px;
     color: #111A47;
     text-align: left;
-}
-
-.p1 {
-    color: #111A47;
-    text-align: left;
-    position: relative;
-    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 
 #botao2 {
@@ -150,6 +154,7 @@ h2 {
     font-size: 50px;
     color: #E4C332;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .p2 {
@@ -162,6 +167,13 @@ h2 {
 
 .flex-4 {
     padding: 100px 400px
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #111A47;
+    padding: 60px;
 }
 
 .fotos {
@@ -210,13 +222,6 @@ h2 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
 }
 
-h3 {
-    font-size: 36px;
-    text-align: center;
-    color: #111A47;
-    padding: 60px;
-}
-
 
 /*Quarta Div */
 
@@ -226,6 +231,18 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+}
+
+h4 {
+    grid-area: 1/1;
+    font-size: 50px;
+    padding: 60px;
+    white-space: nowrap;
+    text-align: center;
+    color: #E4C332;
+    position: relative;
+    left: 240px;
+    bottom: 20px;
 }
 
 .blocos {
@@ -239,16 +256,6 @@ h3 {
     position: relative;
     left: 40px;
     bottom: 27px;
-}
-
-h4 {
-    grid-area: 1/1;
-    font-size: 46px;
-    text-align: center;
-    color: #E4C332;
-    position: relative;
-    left: 240px;
-    bottom: 20px;
 }
 
 .p-divs {
@@ -280,6 +287,7 @@ span {
     width: 30vh;
     margin: 10px;
 }
+
 .veiculos i {
     left: 0px;
     margin: auto;
@@ -287,6 +295,8 @@ span {
     padding: 50px;
     width: auto;
     color: #111A47;
+    margin-top: 10px;
+    margin-bottom: -15px;
 }
 
 .motoristas {
@@ -296,11 +306,33 @@ span {
     margin: 10px;
 }
 
+.motoristas i {
+    left: 0px;
+    margin: auto;
+    font-size: 5vw;
+    padding: 50px 50px;
+    width: auto;
+    color: #111A47;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+
 .monitoras {
     background: white;
     border-radius: 8px;
     width: 30vh;
     margin: 10px;
+}
+
+.monitoras i {
+    left: 0px;
+    margin: auto;
+    font-size: 5vw;
+    padding: 50px 50px;
+    width: auto;
+    color: #111A47;
+    margin-top: 10px;
+    margin-bottom: -15px;
 }
 
 .experiencia {
@@ -310,23 +342,31 @@ span {
     margin: 10px;
 }
 
-.credencial {
-    width: 20vh;
+.experiencia i {
+    left: 0px;
+    margin: auto;
+    font-size: 5vw;
+    padding: 50px 50px;
+    width: auto;
+    color: #111A47;
+    margin-top: 10px;
+    margin-bottom: -15px;
 }
 
-.imagem-monitoras {
-    width: 20vh;
-}
-
-.imagem-experiencia {
-    width: 20vh;
+#num-exp {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right: 73px;
+    bottom: 81px
 }
 
 .formulario {
     background: white;
     grid-area: 1/2;
     position: relative;
-    top: 63px;
+    top: 190px;
     border-radius: 8px;
     padding: 5vh;
     height: 63vh;
@@ -337,7 +377,14 @@ h5 {
     font-size: 30px;
     word-wrap: none;
     margin-bottom: 30px;
+    margin-top: 40px;
     color: #111A47;
+}
+
+.disp-rota {
+    display: block;
+    margin-top: 40px;
+    color: black;
 }
 
 .form-control {
@@ -362,7 +409,7 @@ h5 {
 }
 
 .button-wpp {
-    padding: 12px 30px;
+    padding: 12px 50px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -385,8 +432,13 @@ h5 {
     padding: 100px 400px;
 }
 
+.flex-6 i {
+    color: black;
+}
+
 h6 {
-    font-size: 36px;
+    font-size: 50px;
+    padding: 60px;
     color: #111A47;
 }
 
@@ -519,7 +571,8 @@ footer {
 
 .fa {
     position: relative;
-    right: 30px;
+    right: 50px;
+    bottom: 30px;
     padding: 20px;
     font-size: 30px;
     width: 20px;
@@ -550,7 +603,6 @@ footer {
     .flex-1 {
         padding: 10px 150px;
     }
-
     .flex-2 {
         padding: 100px 150px;
     }
@@ -570,6 +622,7 @@ footer {
         padding: 100px 150px;
     }
 }
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;

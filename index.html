@@ -30,7 +30,7 @@
     <div class="flex-2">
         <div class="item1-content1">
             <h1> Nós cuidamos do seu filho! </h1>
-            <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque id ad provident aliquid fuga reiciendis possimus perferendis consequatur nihil, error saepe, velit cupiditate facere officia modi laborum doloremque? Quos, temporibus.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque id ad provident aliquid fuga reiciendis possimus perferendis consequatur nihil, error saepe, velit cupiditate facere officia modi laborum doloremque? Quos, temporibus.</p>
             <button type="button" class="botao-nav" id="botao2">Contrate Já</button>
         </div>
         <div class="item2-content1"> <img class="imagem-filhos" src="./images/filhos.png" alt="Monitora segurando a mão de crianças"> </div>
@@ -77,13 +77,15 @@
             </div>
             <div class="bloco2">
                 <div class="monitoras">
-                    <img class="imagem-monitoras" src="./Images/monitoras.png" alt="monitora levando alunos">
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
                     <p class="p-divs">Monitoras Qualificadas</p>
                     <hr class="linha">
                     <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
                 </div>
                 <div class="experiencia">
-                    <img class="imagem-experiencia" src="./Images/experiencia.png" alt="experiencia 5 estrelas">
+                    <i class="fa fa-certificate" aria-hidden="true">
+                        <span id="num-exp">23</span>
+                    </i>
                     <p class="p-divs">Experiência</p>
                     <hr class="linha">
                     <span> Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec sagittis nisi. </span>
@@ -92,24 +94,26 @@
         </div>
         <div class="formulario">
             <form action="processa.php" name="meu-form" method="POST"></form>
-            <h5>Verifique a disponibilidade de rotas</h5>
+            <h5>Entre em contato conosco!</h5>
             <input class="form-control" type="text" name="nome" id="name" placeholder="Nome">
             <input class="form-control" type="email" name="email" id="email" placeholder="E-mail">
             <input class="form-control" type="tel" name="contactnum" id="contactnum" placeholder="Número de Contato">
             <textarea name="mensagem" class="form-control" cols="50" rows="4" placeholder="Mensagem"></textarea>
             <input class="button-msg" type="submit" name="submit" value="Enviar mensagem">
             <a href="https://wa.me/5538991565540" target="_blank"> <input class="button-wpp" type="button" value="Whatsapp"></a>
+            <a class="disp-rota" href="#">Verifique disponibilidade de rotas</a>
         </div>
     </div>
     <div class="flex-6">
         <h6>Depoimentos de nossos clientes</h6>
-        <a class="fa fa-angle-right" onclick="forward()"></a>
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
         <div class="depoimento">
             <img src="./Images/perfil.png" alt="imagem do cliente">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos voluptatum unde, sed nemo natus nihil doloremque temporibus. Eius, ad! Laboriosam tenetur beatae ea deserunt unde? Accusantium placeat doloremque velit!</p>
             <span class="cliente-nome">Howard Chavez</span>
             <span>Empreendedor</span>
         </div>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
     </div>
     <footer>
         <nav class="info">
