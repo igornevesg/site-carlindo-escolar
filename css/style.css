@@ -251,13 +251,6 @@ h4 {
     bottom: 30px;
 }
 
-.linha {
-    width: 70%;
-    position: relative;
-    left: 40px;
-    bottom: 27px;
-}
-
 .p-divs {
     font-weight: 700;
     font-size: 20px;
@@ -275,10 +268,10 @@ h4 {
 }
 
 span {
-    font-size: 12px;
+    font-size: 13px;
     position: relative;
-    text-align: center;
     bottom: 30px;
+    text-align: center;
 }
 
 .veiculos {
@@ -435,7 +428,7 @@ h5 {
 .flex-6 i {
     color: black;
     font-size: 24px;
-    padding: 80px 50px 0px 50px;
+    padding: 80px 50px 0px 35px;
     position: relative;
     left: 0px;
     margin: auto;
@@ -458,27 +451,27 @@ h6 {
 
 .depoimento img {
     width: 400px;
-    margin-bottom: -50px;
-    margin-top: -40px;
+    margin: -40px auto -50px auto;
 }
 
 .depoimento p {
     font-size: 16px;
     width: 400px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .depoimento span {
-    display: list-item;
+    display: block;
     font-size: 14px;
-    list-style: none;
     font-weight: 700;
+    margin: auto;
 }
 
-.cliente-nome {
-    margin-top: 60px;
+.depoimento i {
+    margin-top: 20px;
+    padding: 0px;
 }
-
 
 /* Footer */
 
@@ -494,6 +487,8 @@ footer {
 .info {
     color: white;
     line-height: 50px;
+    position: relative;
+    left: 10px;
 }
 
 .info p {
@@ -516,7 +511,7 @@ footer {
     color: white;
     line-height: 50px;
     position: relative;
-    left: 60px;
+    left: 70px;
 }
 
 .links p {
@@ -539,6 +534,8 @@ footer {
     color: white;
     text-align: left;
     line-height: 50px;
+    position: relative;
+    left: 10px;
 }
 
 .contato p {
@@ -577,7 +574,7 @@ footer {
 
 .fa {
     position: relative;
-    right: 120px;
+    right: 100px;
     bottom: 30px;
     padding: 20px;
     font-size: 30px;
@@ -599,7 +596,7 @@ footer {
 
 .fim {
     position: relative;
-    top: 80px;
+    top: 100px;
     display: inline-flex;
     white-space: nowrap;
     margin: auto;
@@ -617,6 +614,34 @@ footer {
     }
     .flex-4 {
         padding: 100px 150px;
+    }
+    .school {
+        font-size: 36px;
+        text-decoration: none;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        left: 95px;
+        color: yellow;
+        font-weight: bold;
+        cursor: pointer;
+        opacity: 0;
+        filter: brightness(0%);
+        transition: all 0.3s ease;
+        padding: 209px 0px;
+        width: 50vh;
+        background: rgba(0, 0, 0, 0.25);
+    }
+    
+    .school:hover {
+        opacity: 1;
+        filter: brightness(100%);
+        transition: all 1s ease;
+    }
+    
+    #facul {
+        left: 572px;
     }
     .flex-5 {
         padding: 100px 150px;
