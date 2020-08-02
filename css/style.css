@@ -30,7 +30,7 @@ body {
 
 .flex-1 {
     flex: 1;
-    padding: 10px 350px;
+    padding: 10px 20vw;
 }
 
 .logo {
@@ -92,7 +92,7 @@ body {
 /* Primeira Div */
 
 .flex-2 {
-    padding: 100px 400px;
+    padding: 100px 22vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -118,7 +118,7 @@ body {
 }
 
 .imagem-filhos {
-    width: 65vh;
+    width: 609px;
 }
 
 h1 {
@@ -140,11 +140,12 @@ h1 {
 /* Segunda Div */
 
 .flex-3 {
-    padding: 180px 400px;
+    padding: 180px 22vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: #111A47;
+    gap: 40px;
 }
 
 .item2-content2 {
@@ -152,7 +153,7 @@ h1 {
 }
 
 .imagem-onibus {
-    width: 50vh;
+    width: 468px;
 }
 
 h2 {
@@ -171,7 +172,7 @@ h2 {
 /* Terceira Div */
 
 .flex-4 {
-    padding: 100px 400px
+    padding: 100px 22vw;
 }
 
 h3 {
@@ -187,13 +188,13 @@ h3 {
 }
 
 .foto-crianca {
-    width: 50vh;
+    width: 468px;
     padding: 10px;
     box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.26);
 }
 
 .foto-jovem {
-    width: 50vh;
+    width: 468px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
 }
@@ -202,7 +203,7 @@ h3 {
 /*Quarta Div */
 
 .flex-5 {
-    padding: 100px 400px;
+    padding: 100px 22vw;
     background-color: #111A47;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -253,7 +254,7 @@ span {
 .veiculos {
     background: white;
     border-radius: 8px;
-    width: 30vh;
+    width: 281px;
     margin: 10px;
 }
 
@@ -271,7 +272,7 @@ span {
 .motoristas {
     background: white;
     border-radius: 8px;
-    width: 30vh;
+    width: 281px;
     margin: 10px;
 }
 
@@ -289,7 +290,7 @@ span {
 .monitoras {
     background: white;
     border-radius: 8px;
-    width: 30vh;
+    width: 281px;
     margin: 10px;
 }
 
@@ -307,7 +308,7 @@ span {
 .experiencia {
     background: white;
     border-radius: 8px;
-    width: 30vh;
+    width: 281px;
     margin: 10px;
 }
 
@@ -328,9 +329,9 @@ span {
     position: relative;
     top: 190px;
     border-radius: 8px;
-    padding: 5vh;
-    height: 63vh;
-    width: 29vw;
+    padding: 47px;
+    height: 600px;
+    width: 600px;
 }
 
 h5 {
@@ -389,7 +390,7 @@ h5 {
 
 .flex-6 {
     background: white;
-    padding: 100px 400px;
+    padding: 100px 22vw;
 }
 
 .flex-6 i {
@@ -444,7 +445,7 @@ h6 {
 /* Footer */
 
 footer {
-    padding: 100px 400px;
+    padding: 100px 22vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -598,30 +599,40 @@ footer {
     .flex-5 {
         padding: 100px 500px;
     }
+    .links {
+        left: 30px;
+    }
     .formulario {
-        height: 71vh;
+        height: 614px;
     }
     h5 {
         margin-top: 80px;
         font-size: 36px;
     }
+    .social {
+        position: relative;
+        right: 60px;
+    }
+    footer {
+        padding: 100px 600px;
+    }
 }
 
 @media screen and (max-width: 1440px) {
     .flex-1 {
-        padding: 10px 68px;
+        padding: 10px 10vw;
     }
     .flex-2 {
-        padding: 100px 68px;
+        padding: 100px 10vw;
     }
     .flex-3 {
-        padding: 100px 68px;
+        padding: 100px 10vw;
     }
     .flex-4 {
-        padding: 100px 68px;
+        padding: 100px 10vw;
     }
     .flex-5 {
-        padding: 100px 68px;
+        padding: 100px 10vw;
     }
     h4 {
         left: 280px;
@@ -629,15 +640,15 @@ footer {
     .formulario {
         top: 190px;
         border-radius: 8px;
-        padding: 5vh;
-        height: 71vh;
-        width: 40vw;
+        padding: 47px;
+        height: 550px;
+        width: 560px;
     }
     .flex-6 {
-        padding: 100px 68px;
+        padding: 100px 10vw;
     }
     footer {
-        padding: 100px 68px;
+        padding: 100px 10vw;
     }
 }
 
@@ -690,8 +701,8 @@ footer {
     .formulario {
         top: 152px;
         border-radius: 8px;
-        padding: 5vh;
-        height: 76vh;
+        padding: 47px;
+        height: 712px;
         width: 39vw;
     }
     .formulario input {
@@ -802,7 +813,7 @@ footer {
     }
     .formulario {
         width: 69vw;
-        height: 42vh;
+        height: 393px;
         top: 0;
         margin: 0;
         padding: 0;
@@ -856,6 +867,19 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
+    #botao-menu {
+        top: 15px;
+        left: 0px;
+        right: 0px;
+    }
+    .topnav {
+        position: relative;
+        top: -20px;
+        left: 30px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
     .logo {
         width: 40vw;
         padding-top: 25px;
@@ -884,12 +908,21 @@ footer {
     }
     h3 {
         font-size: 32px;
+        width: 80vw;
+        text-align: center;
+        left: 0;
+        margin-bottom: 40px;
+        padding: 0;
     }
     .foto-crianca {
         width: 80vw;
+        position: relative;
+        right: 10px;
     }
     .foto-jovem {
         width: 80vw;
+        position: relative;
+        right: 10px;
     }
     h4 {
         font-size: 32px;
@@ -904,7 +937,7 @@ footer {
     }
     .formulario {
         width: 82vw;
-        height: 60vh;
+        height: 562px;
         left: 40px;
     }
     .formulario input {
@@ -916,9 +949,16 @@ footer {
     }
     h6 {
         font-size: 32px;
+        width: 80vw;
+        text-align: center;
+        left: 0;
+        margin-bottom: 40px;
+        padding: 0;
     }
     .depoimento {
         width: 80vw;
+        position: relative;
+        right: 5px;
     }
     .depoimento img {
         width: 50vw;
@@ -930,7 +970,8 @@ footer {
         margin-top: 20px;
     }
     footer {
-        padding: 50px 0px;
+        padding: 50px 40px;
+        margin: 0;
     }
     .social {
         font-size: 8vw;
@@ -947,6 +988,12 @@ footer {
     .contato p {
         font-size: 32px;
     }
+    .contato address {
+        font-size: 14px;
+    }
+    .contato span {
+        font-size: 14px;
+    }
     .fim {
         display: block;
         margin: 0;
@@ -956,5 +1003,60 @@ footer {
     }
     .copy {
         right: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .bloco1 {
+        margin-left: 50px;
+    }
+    .bloco2 {
+        margin-left: 50px;
+    }
+    .formulario {
+        left: 35px;
+    }
+    h6 {
+        margin-left: -10px;
+    }
+    .depoimento {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .bloco1 {
+        margin-left: 20px;
+    }
+    .bloco2 {
+        margin-left: 20px;
+    }
+    .formulario {
+        left: 30px;
+        height: 637px;
+    }
+    .depoimento {
+        right: 20px;
+    }
+    .info p {
+        font-size: 24px;
+    }
+    .links p {
+        font-size: 24px;
+    }
+    .contato p {
+        font-size: 24px;
+    }
+    .contato address {
+        font-size: 12px;
+    }
+    .contato span {
+        font-size: 12px;
+    }
+    .no-decoration {
+        font-size: 12px;
+    }
+    footer {
+        padding: 50px 20px;
     }
 }
