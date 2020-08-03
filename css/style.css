@@ -227,8 +227,7 @@
                     
                     .bloco1 {
                         display: flex;
-                        flex-direction: row;
-                        
+                        flex-direction: row;                        
                     }
                     
                     .bloco2 {
@@ -266,6 +265,7 @@
                         border-radius: 8px;
                         width: 281px;
                         margin: 10px;
+                        
                     }
                     
                     .motoristas i {
@@ -319,7 +319,7 @@
                         background: white;
                         grid-area: 1/2;
                         position: relative;
-                        top: 190px;
+                        top: 170px;
                         border-radius: 8px;
                         padding: 47px;
                         height: 600px;
@@ -620,22 +620,11 @@
                             padding: 100px 10vw;
                         }
                         .flex-5 {
-                            padding: 100px 10vw;
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .blocos {
-                            margin: auto;
-                            bottom: 0;
-                        }
-                        h4 {
-                            left: 0;
-                            padding: 0;
-                            margin: 40px 0px 40px 0px;
-                        }
-                        
+                            padding: 100px 10vw;                            
+                        }                                                  
                         .formulario {
                             border-radius: 8px;
+                            top: 70px;
                             padding: 47px;
                             height: 550px;
                             width: 560px;
@@ -655,8 +644,13 @@
                             flex-direction: column;
                             justify-content: center;
                         }
+                        .blocos {
+                            margin: auto;
+                        }
                         h4 {
                             left: 0;
+                            padding: 0;
+                            margin: 40px 0px 40px 0px;
                         }
                         .formulario {
                             width: 580px;
@@ -765,9 +759,22 @@
                             flex-direction: column;
                             justify-content: center;
                         }
+                        .blocos {
+                            margin: auto;
+                        }
                         h4 {
-                            margin: 0;
+                            
                             left: 0;
+                        }
+                        .formulario {
+                            height: 530px;
+                        }
+                        .formulario input {
+                            width: 400px;
+                        }
+                        .formulario textarea {
+                            width: 400px;
+                            top: 0;
                         }
                         h5 {
                             margin-top: 25px;
@@ -865,11 +872,14 @@
                         }
                         .formulario {
                             width: 76vw;
-                            height: 440px;
+                            height: 500px;
                             top: 0;
                             margin: 0;
                             padding: 0;
                             margin: auto;
+                        }
+                        .formulario input {
+                            width: 350px;
                         }
                         .button-msg {
                             padding: 9px 23px;
@@ -881,7 +891,8 @@
                         }
                         .formulario textarea {
                             position: relative;
-                            top: 16px;
+                            top: 0px;
+                            width: 350px;
                         }
                         .form-control {
                             margin: 5px
@@ -891,7 +902,7 @@
                             margin-bottom: 20px;
                         }
                         footer {
-                            padding: 50px 65px;
+                            padding: 50px 10vw;
                             display: flex;
                             flex-direction: column;
                             gap: 50px;
@@ -910,8 +921,10 @@
                         }
                         .social {
                             margin-top: 30px;
-                            font-size: 36px;
-                            width: 20vw;
+                            font-size: 28px;
+                            width: 200px;
+                            position: relative;
+                            left: 60px;
                         }
                         .fim {
                             top: 30px;
@@ -931,13 +944,27 @@
                         }
                         .bloco1 {
                             display: flex;
-                            flex-direction: column;
-                            
+                            flex-direction: column;                                                      
                         }
                         .bloco2 {
                             display: flex;
-                            flex-direction: column;
-                            
+                            flex-direction: column;                            
+                        }
+                        .veiculos {
+                            margin: auto;
+                        }
+                        .motoristas {
+                            margin: auto;
+                            margin-top: 50px;
+                        }
+                        .monitoras {
+                            margin: auto;
+                            margin-top: 50px;
+                        }
+                        .experiencia {
+                            margin: auto;
+                            margin-top: 50px;
+                            margin-bottom: 20px;
                         }
                     }
                     
@@ -1013,7 +1040,7 @@
                         }
                         .formulario textarea {
                             width: 55vw;
-                            margin-top: -10px;
+                            margin-top: 5px;
                         }
                         h6 {
                             font-size: 32px;
@@ -1042,10 +1069,10 @@
                             margin: 0;
                         }
                         .social {
-                            font-size: 8vw;
+                            left:90px ;
                             display: flex;
                             flex-direction: row;
-                            gap: 20px;
+                            
                         }
                         .info p {
                             font-size: 32px;
