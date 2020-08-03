@@ -323,7 +323,7 @@
                         border-radius: 8px;
                         padding: 47px;
                         height: 600px;
-                        width: 600px;
+                        width: 30vw;
                     }
                     
                     h5 {
@@ -797,6 +797,34 @@
                     }
                     
                     @media screen and (max-width: 768px) {
+                        h1 {
+                            font-size: 5vw; 
+                        }
+                        h2 {
+                            font-size: 5vw; 
+                        }
+                        h3 {
+                            font-size: 5vw; 
+                        }
+                        h4 {
+                            font-size: 5vw; 
+                        }
+                        h5 {
+                            font-size: 5vw; 
+                        }
+                        h6 {
+                            font-size: 5vw; 
+                        }
+                        footer {
+                            gap: 0;
+                            width: 100%;
+                        }
+                        .foto-crianca {
+                            width: 65vw;
+                        }
+                        .foto-jovem {
+                            width: 65vw;
+                        }
                         #myTopNav {
                             display: none;
                         }
@@ -879,20 +907,20 @@
                             margin: auto;
                         }
                         .formulario input {
-                            width: 350px;
+                            width: 46vw;
                         }
                         .button-msg {
-                            padding: 9px 23px;
+                            padding: 9px 6vw;
                             font-size: 14px;
                         }
                         .button-wpp {
-                            padding: 9px 23px;
+                            padding: 9px 6vw;
                             font-size: 14px;
                         }
                         .formulario textarea {
                             position: relative;
                             top: 0px;
-                            width: 350px;
+                            width: 46vw
                         }
                         .form-control {
                             margin: 5px
@@ -911,13 +939,13 @@
                             left: 10px;
                         }
                         .links p {
-                            font-size: 36px;
+                            font-size: 5vw;
                         }
                         .info p {
-                            font-size: 36px;
+                            font-size: 5vw;
                         }
                         .contato p {
-                            font-size: 36px;
+                            font-size: 5vw;
                         }
                         .social {
                             margin-top: 30px;
@@ -928,7 +956,15 @@
                         }
                         .fim {
                             top: 30px;
+                            left: 0;                       
+                            display: block;
+                            margin: 0;
+                        }
+                        .white-text {
                             left: 0;
+                        }
+                        .copy {
+                            right: 0;
                         }
                     }
                     
@@ -1084,21 +1120,12 @@
                             font-size: 32px;
                         }
                         .contato address {
-                            font-size: 14px;
+                            font-size: 12px;
                         }
                         .contato span {
-                            font-size: 14px;
+                            font-size: 12px;
                         }
-                        .fim {
-                            display: block;
-                            margin: 0;
-                        }
-                        .white-text {
-                            left: 0;
-                        }
-                        .copy {
-                            right: 0;
-                        }
+                        
                     }
                     
                     @media screen and (max-width:375px) {
@@ -1117,7 +1144,7 @@
                     @media screen and (max-width:320px) {
                         
                         .formulario {
-                            left: 30px;
+                            left: 0;
                             height: 637px;
                         }
                         .depoimento {
@@ -1143,5 +1170,41 @@
                         }
                         footer {
                             padding: 50px 20px;
+                        }
+                    }
+                    @media screen and (max-width:280px) {
+                        #botao2 {
+                            font-size: 12px;
+                        }
+                        .veiculos {
+                            width: 80vw;
+                        }
+                        .motoristas {
+                            width: 80vw;
+                        }
+                        .monitoras {
+                            width: 80vw;
+                        }
+                        .experiencia {
+                            width: 80vw;
+                        }
+                        .bloco1 span {
+                            font-size: 10px;
+                        }
+                        .p-divs {
+                            font-size: 14px;
+                            white-space: initial;
+                        }
+                        .copy {
+                            font-size: 12px;
+                        }
+                        .white-text {
+                            font-size: 12px;
+                        }
+                        .contato address {
+                            font-size: 3vw;
+                        }
+                        .contato span {
+                            font-size: 3vw;
                         }
                     }
