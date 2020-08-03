@@ -55,6 +55,7 @@
                         color: #6D6D6D;
                         border-bottom: 3px solid #111A47;
                     }
+                    
                     #botao-sem-borda:hover {
                         border: none;
                     }
@@ -182,47 +183,31 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
-                        gap: 50px;                        
-                    }
-                    .school {
-                        padding: 30px;
-                        width: 468px;
-                        height: 100px;
-                        margin: auto;
-                        background-color:white;                        
-                        box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.19); 
-                        font-weight: bold;
-                        color: #E4C332;
-                        font-size: 24px;
-                        position: relative;
-                        top: -20px;  
-                        z-index: -1;    
-                        transition: all 0.5s ease;                 
-                    }
-                    .school:hover {
-                        background-color: #111A47;
+                        gap: 50px;
                     }
                     
                     .foto-crianca {
                         width: 468px;
                         padding: 10px;
-                        box-shadow: -1px -12px 20px 0px rgba(161,161,161,0.19);    
-                        transition: all 0.5s ease;               
+                        box-shadow: 0px 0px 17px 9px rgba(235, 235, 235, 1);
+                        transition: all 0.5s ease;
                     }
+                    
                     .foto-crianca:hover {
-                        width: 490px;
+                        transform: scale(0.9);
                         transition: all 0.5s ease;
                     }
                     
                     .foto-jovem {
                         width: 468px;
                         padding: 10px;
-                        box-shadow: -1px -12px 20px 0px rgba(161,161,161,0.19);  
-                        transition: all 0.5s ease;                       
+                        box-shadow: 0px 0px 17px 9px rgba(235, 235, 235, 1);
+                        transition: all 0.5s ease;
                     }
+                    
                     .foto-jovem:hover {
-                        width: 490px;
-                        transition: all 0.5s;   
+                        transform: scale(0.9);
+                        transition: all 0.5s;
                     }
                     /*Quarta Div */
                     
@@ -261,7 +246,7 @@
                     
                     .bloco1 {
                         display: flex;
-                        flex-direction: row;                        
+                        flex-direction: row;
                     }
                     
                     .bloco2 {
@@ -299,7 +284,6 @@
                         border-radius: 8px;
                         width: 281px;
                         margin: 10px;
-                        
                     }
                     
                     .motoristas i {
@@ -604,7 +588,7 @@
                             margin-top: 150px;
                         }
                         h4 {
-                            left: 450px;
+                            left: 420px;
                         }
                         .veiculos i {
                             font-size: 4vw;
@@ -619,7 +603,7 @@
                             font-size: 4vw;
                         }
                         .flex-5 {
-                            padding: 100px 500px;
+                            padding: 100px 20vw;
                         }
                         .links {
                             left: 30px;
@@ -627,8 +611,11 @@
                         .formulario {
                             height: 614px;
                         }
+                        .formulario input {
+                            width: 400px;
+                        }
                         h5 {
-                            margin-top: 80px;
+                            margin-top: 30px;
                             font-size: 36px;
                         }
                         .social {
@@ -654,8 +641,8 @@
                             padding: 100px 10vw;
                         }
                         .flex-5 {
-                            padding: 100px 10vw;                            
-                        }                                                  
+                            padding: 100px 10vw;
+                        }
                         .formulario {
                             border-radius: 8px;
                             top: 70px;
@@ -795,11 +782,10 @@
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
-                            gap: 50px; 
+                            gap: 50px;
                         }
                         .school {
                             width: 468px;
-                            
                         }
                         .flex-5 {
                             padding: 100px 0px;
@@ -811,7 +797,6 @@
                             margin: auto;
                         }
                         h4 {
-                            
                             left: 0;
                         }
                         .formulario {
@@ -842,27 +827,26 @@
                         .flex-6 {
                             padding: 100px 50px;
                         }
-                        
                     }
                     
                     @media screen and (max-width: 768px) {
                         h1 {
-                            font-size: 5vw; 
+                            font-size: 5vw;
                         }
                         h2 {
-                            font-size: 5vw; 
+                            font-size: 5vw;
                         }
                         h3 {
-                            font-size: 5vw; 
+                            font-size: 5vw;
                         }
                         h4 {
-                            font-size: 5vw; 
+                            font-size: 5vw;
                         }
                         h5 {
-                            font-size: 5vw; 
+                            font-size: 5vw;
                         }
                         h6 {
-                            font-size: 5vw; 
+                            font-size: 5vw;
                         }
                         footer {
                             gap: 0;
@@ -1008,7 +992,7 @@
                         }
                         .fim {
                             top: 30px;
-                            left: 0;                       
+                            left: 0;
                             display: block;
                             margin: 0;
                         }
@@ -1032,11 +1016,11 @@
                         }
                         .bloco1 {
                             display: flex;
-                            flex-direction: column;                                                      
+                            flex-direction: column;
                         }
                         .bloco2 {
                             display: flex;
-                            flex-direction: column;                            
+                            flex-direction: column;
                         }
                         .veiculos {
                             margin: auto;
@@ -1125,11 +1109,9 @@
                             font-size: 30px;
                             white-space: initial;
                         }
-                        
                         .formulario {
                             width: 82vw;
                             height: 562px;
-                            
                         }
                         .formulario input {
                             width: 55vw;
@@ -1165,10 +1147,9 @@
                             margin: 0;
                         }
                         .social {
-                            left:90px ;
+                            left: 90px;
                             display: flex;
                             flex-direction: row;
-                            
                         }
                         .info p {
                             font-size: 30px;
@@ -1188,11 +1169,9 @@
                         .contato span {
                             font-size: 12px;
                         }
-                        
                     }
                     
                     @media screen and (max-width:375px) {
-                        
                         .formulario {
                             left: 0px;
                         }
@@ -1205,7 +1184,6 @@
                     }
                     
                     @media screen and (max-width:320px) {
-                        
                         .formulario {
                             left: 0;
                             height: 637px;
@@ -1235,6 +1213,7 @@
                             padding: 50px 20px;
                         }
                     }
+                    
                     @media screen and (max-width:280px) {
                         #botao2 {
                             font-size: 12px;

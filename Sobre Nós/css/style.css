@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Header */
+
+.flex-1 {
+    flex: 1;
+    padding: 10px 20vw;
+}
+
+.logo {
+    padding: 20px;
+    float: left;
+}
+
+.topnav {
+    padding: 20px 30px;
+    float: right;
+    overflow: hidden;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #111A47;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: #6D6D6D;
+    border-bottom: 3px solid #111A47;
+}
+
+#botao-sem-borda:hover {
+    border: none;
+}
+
+#botao-menu {
+    display: none;
+    cursor: pointer;
+}
+
+#myTopNav {
+    display: block;
+}
+
+.botao-nav {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao-nav:hover:before {
+    transform: translate(-25%, -25%) rotate(-180deg);
+}
+
+.botao-nav:hover {
+    background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
+}
+
+.sobre-nos {
+    flex: 2;
+    padding: 12px 30px;
+}

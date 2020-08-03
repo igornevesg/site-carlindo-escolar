@@ -7,16 +7,6 @@ function abrirMenu() {
     }
 }
 
-var images = []
-
-function forward() {
-    document.getElementById("paragrafo").innerHTML = "Paragraph Changed";
-}
-
-function backward() {
-    document.getElementById("paragrafo").innerHTML = "Paragraph back";
-}
-
 function myFunction(x) {
     if (x.matches) {
         document.getElementById("myTopNav").style.display = 'block';
