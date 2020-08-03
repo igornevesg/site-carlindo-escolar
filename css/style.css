@@ -636,6 +636,9 @@
                         footer {
                             padding: 100px 5vw;
                         }
+                        .links {
+                            left: 0;
+                        }
                     }
                     
                     @media screen and (max-width: 1376px) {
@@ -794,6 +797,7 @@
                         .flex-6 {
                             padding: 100px 50px;
                         }
+                        
                     }
                     
                     @media screen and (max-width: 768px) {
@@ -1113,12 +1117,15 @@
                         }
                         .info p {
                             font-size: 30px;
+                            margin-top: 20px;
                         }
                         .links p {
                             font-size: 30px;
+                            margin-top: 20px;
                         }
                         .contato p {
                             font-size: 30px;
+                            margin-top: 20px;
                         }
                         .contato address {
                             font-size: 12px;
