@@ -226,12 +226,14 @@
                     }
                     
                     .bloco1 {
-                        display: inline-flex;
-                        margin: 15px;
+                        display: flex;
+                        flex-direction: row;
+                        
                     }
                     
                     .bloco2 {
-                        display: inline-flex;
+                        display: flex;
+                        flex-direction: row;
                     }
                     
                     span {
@@ -619,12 +621,20 @@
                         }
                         .flex-5 {
                             padding: 100px 10vw;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .blocos {
+                            margin: auto;
+                            bottom: 0;
                         }
                         h4 {
-                            left: 280px;
+                            left: 0;
+                            padding: 0;
+                            margin: 40px 0px 40px 0px;
                         }
+                        
                         .formulario {
-                            top: 190px;
                             border-radius: 8px;
                             padding: 47px;
                             height: 550px;
@@ -919,6 +929,16 @@
                         .depoimento p {
                             width: 65vw;
                         }
+                        .bloco1 {
+                            display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        .bloco2 {
+                            display: flex;
+                            flex-direction: column;
+                            
+                        }
                     }
                     
                     @media screen and (max-width: 425px) {
@@ -982,18 +1002,11 @@
                         h4 {
                             font-size: 32px;
                         }
-                        .bloco1 {
-                            display: block;
-                            margin-left: 80px;
-                        }
-                        .bloco2 {
-                            display: block;
-                            margin-left: 80px;
-                        }
+                        
                         .formulario {
                             width: 82vw;
                             height: 562px;
-                            left: 40px;
+                            
                         }
                         .formulario input {
                             width: 55vw;
@@ -1062,14 +1075,9 @@
                     }
                     
                     @media screen and (max-width:375px) {
-                        .bloco1 {
-                            margin-left: 50px;
-                        }
-                        .bloco2 {
-                            margin-left: 50px;
-                        }
+                        
                         .formulario {
-                            left: 35px;
+                            left: 0px;
                         }
                         h6 {
                             margin-left: -10px;
@@ -1080,12 +1088,7 @@
                     }
                     
                     @media screen and (max-width:320px) {
-                        .bloco1 {
-                            margin-left: 20px;
-                        }
-                        .bloco2 {
-                            margin-left: 20px;
-                        }
+                        
                         .formulario {
                             left: 30px;
                             height: 637px;
