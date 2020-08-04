@@ -19,7 +19,7 @@ body {
 
 .flex-1 {
     flex: 1;
-    padding: 10px 320px;
+    padding: 10px 384px;
 }
 
 .logo {
@@ -82,7 +82,7 @@ body {
 }
 
 .sobre-nos {
-    padding: 100px 250px;
+    padding: 100px 320px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -104,7 +104,7 @@ h1 {
     padding-right: 100px;
 }
 .div_img2 {
-    padding: 80px 250px;
+    padding: 80px 320px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -127,10 +127,10 @@ h2 {
 }
 @media screen and (max-width:1440px) {
     .flex-1 {
-        padding: 10px 100px;
+        padding: 10px 144px;
     }  
     .sobre-nos {
-        padding: 100px 100px;
+        padding: 100px 130px;
     }
     h1 {
         padding: 0px 30px;
@@ -142,7 +142,7 @@ h2 {
         padding-right: 30px;
     }
     .div_img2 {
-        padding: 80px 100px;
+        padding: 80px 130px;
     }
     h2 {
         padding: 0px 30px;
@@ -156,7 +156,18 @@ h2 {
 }
 @media screen and (max-width: 1024px) {
     .flex-1 {
-        padding: 10px 20px;
+        padding: 10px 50px;
+    }
+    .logo {
+        padding: 10px;
+        float: left;
+    }
+    .topnav a {
+        font-size: 14px;
+    }
+    .botao-nav {
+        padding: 10px 28px;
+        font-size: 14px;
     }
     .sobre-nos {
         padding: 50px 20px;
@@ -245,6 +256,22 @@ h2 {
     }
 }
 @media screen and (max-width: 425px) {
+    #botao-menu {       
+        left: 5px;
+        right: 0px;
+    }
+    .topnav {
+        position: relative;
+        top: -20px;
+        left: 30px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
+    .logo {
+        width: 40vw;
+        padding-top: 25px;
+    }
     .sobre-nos {
         padding: 50px 10px;
     }
