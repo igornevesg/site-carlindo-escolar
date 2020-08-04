@@ -19,7 +19,7 @@ body {
 
 .flex-1 {
     flex: 1;
-    padding: 10px 10vw;
+    padding: 10px 320px;
 }
 
 .logo {
@@ -82,9 +82,10 @@ body {
 }
 
 .sobre-nos {
-    padding: 100px 30px;
+    padding: 100px 250px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 h1 {
     font-size: 50px;
@@ -95,14 +96,15 @@ h1 {
 .sobre-nos p {
     text-align: left;
     padding: 0px 100px;
+    margin-top: 20px;
     
 }
 .imagem1 {
-    width: 550px;
+    width: 650px;
     padding-right: 100px;
 }
 .div_img2 {
-    padding: 80px 30px;
+    padding: 80px 250px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -116,10 +118,171 @@ h2 {
 .div_img2 p {
     text-align: left;
     padding: 0px 100px;
+    margin-top: 20px;
 }
 .imagem2 {
-    width: 550px;
+    width: 600px;
     padding-left: 100px;
     
 }
-
+@media screen and (max-width:1440px) {
+    .flex-1 {
+        padding: 10px 100px;
+    }  
+    .sobre-nos {
+        padding: 100px 100px;
+    }
+    h1 {
+        padding: 0px 30px;
+    }
+    .sobre-nos p {
+        padding: 0px 30px;
+    }
+    .imagem1 {
+        padding-right: 30px;
+    }
+    .div_img2 {
+        padding: 80px 100px;
+    }
+    h2 {
+        padding: 0px 30px;
+    }
+    .div_img2 p {
+        padding: 0px 30px;
+    }
+    .imagem2 {
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .flex-1 {
+        padding: 10px 20px;
+    }
+    .sobre-nos {
+        padding: 50px 20px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .sobre-nos p {
+        font-size: 14px;
+    }
+    .imagem1 {
+        width: 500px;
+        padding-right: 20px;
+    }
+    .div_img2 {
+        padding: 50px 20px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .div_img2 p {
+        font-size: 14px;
+    }
+    .imagem2 {
+        width: 500px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 768px) {    
+    #myTopNav {
+        display: none;
+    }
+    #botao-menu {
+        color: black;
+        position: relative;
+        top: 35px;
+        left: -40px;
+        right: 100px;
+        font-size: 1.75rem;
+        display: block;
+        float: right;
+    }
+    .topnav {
+        position: relative;
+        top: 55px;
+        left: 20px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
+    .topnav a {
+        padding: 15px;
+        display: block;
+        background-color: rgb(241, 235, 235);
+        margin: 0;
+        width: 15rem;
+    }
+    .topnav a:hover {
+        background-color: rgb(214, 215, 228);
+    }
+    .botao-nav {
+        padding: 9px 23px;
+        font-size: 14px;
+    }
+    .sobre-nos {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 100px;
+    }
+    .imagem1 {
+        position: relative;
+        left: 20px;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .div_img2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 100px;
+    }
+    .imagem2 {
+        padding: 0;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .sobre-nos {
+        padding: 50px 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .sobre-nos p {
+        font-size: 12px;
+    }
+    .imagem1 {
+        width: 350px;
+    }
+    .div_img2 {
+        padding: 50px 10px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .div_img2 p {
+        font-size: 12px;
+    }
+    .imagem2 {
+        width: 350px;
+    }
+}
+@media screen and (max-width:375px) {
+    .imagem1 {
+        width: 300px;
+    }
+    .imagem2 {
+        width: 300px;
+    }
+}
+@media screen and (max-width:375px) {
+    .imagem1 {
+        width: 250px;
+    }
+    .imagem2 {
+        width: 250px;
+    }
+}
