@@ -262,7 +262,7 @@ iframe {
 }
 
 .social {
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -293,6 +293,9 @@ iframe {
     }
     .formulario input {
         width: 400px;
+    }
+    .formulario textarea {
+        height: 240px;
     }
     .fim {
         margin-top: 60px;
@@ -369,6 +372,9 @@ iframe {
     }
     .fim {
         margin-top: 60px;
+    }
+    .social {
+        font-size: 28px;
     }
 }
 
@@ -542,6 +548,9 @@ iframe {
     h6 {
         font-size: 36px;
     }
+    .social {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 670px) {
@@ -627,7 +636,7 @@ iframe {
         width: 350px;
     }
     .social {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 

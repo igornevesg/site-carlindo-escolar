@@ -127,7 +127,7 @@ h2 {
 }
 
 .imagem2 {
-    width: 600px;
+    width: 530px;
     padding-left: 100px;
 }
 
@@ -262,7 +262,7 @@ iframe {
 }
 
 .social {
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -286,13 +286,16 @@ iframe {
         width: 800px;
     }
     .imagem2 {
-        width: 800px;
+        width: 700px;
     }
     .formulario {
         height: 614px;
     }
     .formulario input {
         width: 400px;
+    }
+    .formulario textarea {
+        height: 240px;
     }
     .fim {
         margin-top: 60px;
@@ -309,6 +312,9 @@ iframe {
     }
     #contactnum {
         width: 30vw;
+    }
+    .fim {
+        margin-top: 60px;
     }
 }
 
@@ -369,6 +375,9 @@ iframe {
     }
     .fim {
         margin-top: 60px;
+    }
+    .social {
+        font-size: 28px;
     }
 }
 
@@ -544,7 +553,7 @@ iframe {
         font-size: 36px;
     }
     .social {
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
@@ -637,7 +646,7 @@ iframe {
         width: 350px;
     }
     .social {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 

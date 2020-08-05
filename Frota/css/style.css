@@ -161,11 +161,11 @@ body {
 }
 
 
-/* Contato */
-
-.contact {
+ /* Contato */
+                                
+ .contact {
     background-color: #111A47;
-    padding: 100px 10vw;
+    padding: 20px 10vw 0px 10vw;
 }
 
 .flex-contato {
@@ -243,6 +243,7 @@ h6 {
     font-size: 50px;
     padding: 60px;
     color: #E4C332;
+    text-align: center;
 }
 
 .endereco {
@@ -291,7 +292,7 @@ iframe {
 }
 
 .social {
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -308,4 +309,255 @@ iframe {
 
 .fim {
     color: white;
+}
+@media screen and (min-width: 2000px) {
+    .formulario {
+        height: 614px;
+    }
+    iframe {
+        width: 23vw;
+    }
+    .formulario input {
+        width: 400px;
+    }
+    .formulario textarea {
+        height: 240px;
+    }
+    .fim {
+        margin-top: 60px;
+    }
+    .flex-contato {
+        grid-template-rows: 1fr;
+        grid-template-columns: 0.45fr 1fr 1fr;
+    }
+    #name {
+        width: 13.5vw;
+    }
+    #email {
+        width: 13.5vw;
+    }
+    #contactnum {
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 1457px) {
+    .flex-1 {
+        padding: 10px 10vw;
+    }
+    .flex-contato {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 0.35fr 1fr 1fr;
+        text-align: center;
+    }
+    .formulario {
+        border-radius: 8px;
+        padding: 47px;
+        height: 650px;
+        width: 32vw;
+        margin: auto;
+    }
+    iframe {
+        width: 22 vw;
+    }
+    .formulario p {
+        white-space: normal;
+    }
+    .form-control {
+        width: 25vw;
+        height: 30px;
+        margin: 10px;
+    }
+    .formulario textarea {
+        height: 15vh;
+    }
+    .fim {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .social {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .flex-1 {
+        padding: 10px 50px;
+    }
+    .logo {
+        padding: 10px;
+        float: left;
+    }
+    .topnav a {
+        font-size: 14px;
+    }
+    .botao-nav {
+        padding: 10px 28px;
+        font-size: 14px;
+    }
+    .flex-contato {
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        width: 50vw;
+        margin-top: 50px;
+    }
+    .map {
+        order: 2;
+    }
+    .endereco {
+        order: 1;
+    }
+    .social {
+        left: 0;
+        bottom: 0;
+        order: 4;
+        margin-top: 20px;
+    }
+    .formulario {
+        height: 650px;
+        width: 50vw;
+        margin-top: 50px;
+        padding: 0;
+        order: 2;
+    }
+    .formulario p {
+        margin-top: 40px;
+    }
+    .formulario input {
+        width: 40vw
+    }
+    .formulario textarea {
+        width: 40vw;
+        top: 0;
+    }
+}
+@media screen and (max-width: 880px) {
+    #myTopNav {
+        display: none;
+    }
+    #botao-menu {
+        color: black;
+        position: relative;
+        top: 15px;
+        left: -40px;
+        right: 100px;
+        font-size: 1.75rem;
+        display: block;
+        float: right;
+    }
+    .topnav {
+        position: relative;
+        top: 55px;
+        left: 20px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
+    .topnav a {
+        padding: 15px;
+        display: block;
+        background-color: rgb(241, 235, 235);
+        margin: 0;
+        width: 15rem;
+    }
+    .topnav a:hover {
+        background-color: rgb(214, 215, 228);
+    }
+    .botao-nav {
+        padding: 9px 23px;
+        font-size: 14px;
+    }
+    .maps {
+        width: 76vw;
+    }
+    .formulario {
+        width: 76vw;
+        height: 570px;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .formulario input {
+        width: 46vw;
+    }
+    .button-msg {
+        padding: 9px 6vw;
+        font-size: 14px;
+    }
+    .button-wpp {
+        padding: 9px 6vw;
+        font-size: 14px;
+    }
+    .formulario textarea {
+        position: relative;
+        top: 0px;
+        width: 46vw
+    }
+    .form-control {
+        margin: 5px
+    }
+    .social {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #botao-menu {
+        top: 15px;
+        left: 0px;
+        right: 0px;
+    }
+    .topnav {
+        position: relative;
+        top: -20px;
+        left: 30px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
+    .logo {
+        width: 40vw;
+        padding-top: 25px;
+    }
+    .formulario {
+        width: 82vw;
+        height: 580px;
+    }
+    .formulario p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .formulario input {
+        width: 55vw;
+    }
+    .formulario textarea {
+        width: 55vw;
+        margin-top: 5px;
+    }
+    .maps {
+        width: 82vw;
+    }
+    .social {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:375px) {
+    .formulario {
+        left: 0px;
+    }
+    .depoimento {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .formulario {
+        left: 0;
+        height: 637px;
+    }
+    .depoimento {
+        right: 20px;
+    }
 }

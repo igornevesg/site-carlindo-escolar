@@ -518,7 +518,7 @@
                                 }
                                 
                                 .social {
-                                    font-size: 36px;
+                                    font-size: 30px;
                                     text-decoration: none;
                                 }
                                 
@@ -573,6 +573,9 @@
                                     }
                                     .formulario input {
                                         width: 400px;
+                                    }
+                                    .formulario textarea {
+                                        height: 240px;
                                     }
                                     .fim {
                                         margin-top: 60px;
@@ -640,6 +643,9 @@
                                     }
                                     .fim {
                                         margin-top: 60px;
+                                    }
+                                    .social {
+                                        font-size: 28px;
                                     }
                                 }
                                 
@@ -903,7 +909,7 @@
                                         margin: 5px
                                     }
                                     .social {
-                                        font-size: 30px;
+                                        font-size: 24px;
                                     }
                                 }
                                 
@@ -1093,7 +1099,7 @@
                                         width: 82vw;
                                     }
                                     .social {
-                                        font-size: 24px;
+                                        font-size: 20px;
                                     }
                                 }
                                 
