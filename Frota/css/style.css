@@ -74,14 +74,6 @@ body {
     background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
 }
 
-.no-decoration {
-    text-decoration: none;
-}
-
-.no-decoration:hover {
-    opacity: 0.7;
-}
-
 .frota {
     font-weight: bold;
     text-align: center;

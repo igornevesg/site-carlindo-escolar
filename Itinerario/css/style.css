@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* Header */
+
+.flex-1 {
+    flex: 1;
+    padding: 10px 384px;
+}
+
+.logo {
+    padding: 20px;
+    float: left;
+}
+
+.topnav {
+    padding: 20px 30px;
+    float: right;
+    overflow: hidden;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #111A47;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: #6D6D6D;
+    border-bottom: 3px solid #111A47;
+}
+
+#botao-sem-borda:hover {
+    border: none;
+}
+
+#botao-menu {
+    display: none;
+    cursor: pointer;
+}
+
+#myTopNav {
+    display: block;
+}
+
+.botao-nav {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao-nav:hover:before {
+    transform: translate(-25%, -25%) rotate(-180deg);
+}
+
+.botao-nav:hover {
+    background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
+}
+
+.sobre-nos {
+    padding: 100px 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #111A47;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+.sobre-nos p {
+    text-align: left;
+    padding: 0px 100px;
+    margin-top: 20px;
+}
+
+.imagem1 {
+    width: 650px;
+    padding-right: 100px;
+}
+
+.div_img2 {
+    padding: 80px 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: #111A47;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+.div_img2 p {
+    text-align: left;
+    padding: 0px 100px;
+    margin-top: 20px;
+}
+
+.imagem2 {
+    width: 600px;
+    padding-left: 100px;
+}
+/* Contato */
+                                
+.contact {
+    background-color: #111A47;
+    padding: 100px 10vw;
+}
+
+.flex-contato {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.25fr 1fr 1.5fr;
+    text-align: center;
+}
+
+.formulario {
+    background: white;
+    grid-area: 1/3;
+    border-radius: 8px;
+    padding: 50px;
+    height: 650px;
+    width: 40vw;
+}
+
+.formulario p {
+    font-size: 28px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    color: #111A47;
+}
+
+.disp-rota {
+    display: block;
+    margin-top: 40px;
+    color: black;
+}
+
+.form-control {
+    width: 30vw;
+    height: 30px;
+    margin: 10px;
+}
+
+.formulario textarea {
+    height: 23vh;
+}
+
+.button-msg {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    top: 20px;
+    color: #111A47;
+    margin: 10px;
+}
+
+.button-wpp {
+    padding: 12px 60px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--title-white);
+    background: linear-gradient(118.1deg, #25d366 -2.02%, #11ad4a 129.72%);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    top: 20px;
+    color: white;
+    margin: 10px;
+}
+
+h6 {
+    font-size: 50px;
+    padding: 60px;
+    color: #E4C332;
+}
+
+.endereco {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco i {
+    font-size: 36px;
+    color: #E4C332;
+    padding: 25px;
+}
+
+.endereco p {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.endereco address {
+    color: white;
+    white-space: normal;
+    font-size: 16px;
+}
+
+.endereco span {
+    color: white;
+    white-space: normal;
+    font-size: 16px;
+}
+
+#phone {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.social {
+    font-size: 36px;
+    text-decoration: none;
+    position: relative;
+    left: 350px;
+    bottom: 180px;
+}
+
+.social .fa {
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.social .fa:hover {
+    opacity: 0.7;
+}
+
+.fim {
+    color: white;
+    position: relative;
+    top: 90px;
+}
+
+@media screen and (min-width:2000px) {
+    .imagem1 {
+        width: 800px;
+    }
+    .imagem2 {
+        width: 800px;
+    }
+    .formulario {
+        height: 614px;
+    }
+    .formulario input {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1457px) {
+    .flex-1 {
+        padding: 10px 144px;
+    }
+    .sobre-nos {
+        padding: 100px 130px;
+    }
+    h1 {
+        padding: 0px 30px;
+    }
+    .sobre-nos p {
+        padding: 0px 30px;
+    }
+    .imagem1 {
+        padding-right: 30px;
+    }
+    .div_img2 {
+        padding: 80px 130px;
+    }
+    h2 {
+        padding: 0px 30px;
+    }
+    .div_img2 p {
+        padding: 0px 30px;
+    }
+    .imagem2 {
+        padding-left: 30px;
+    }
+    .flex-contato {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 0.35fr 1fr 1fr;
+        text-align: center;
+    }
+    .formulario {
+        border-radius: 8px;
+        padding: 47px;
+        height: 650px;
+        width: 32vw;
+        margin: auto;
+    }
+    iframe {
+        width: 22vw;
+    }
+    .formulario p {
+        white-space: normal;
+    }
+    .form-control {
+        width: 25vw;
+        height: 30px;
+        margin: 10px;
+    }
+    .formulario textarea {
+        height: 15vh;
+    }
+    .social {
+        left: 320px;
+        bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .flex-1 {
+        padding: 10px 50px;
+    }
+    .logo {
+        padding: 10px;
+        float: left;
+    }
+    .topnav a {
+        font-size: 14px;
+    }
+    .botao-nav {
+        padding: 10px 28px;
+        font-size: 14px;
+    }
+    .sobre-nos {
+        padding: 50px 20px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .sobre-nos p {
+        font-size: 14px;
+    }
+    .imagem1 {
+        width: 500px;
+        padding-right: 20px;
+    }
+    .div_img2 {
+        padding: 50px 20px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    .div_img2 p {
+        font-size: 14px;
+    }
+    .imagem2 {
+        width: 500px;
+        padding-right: 20px;
+    }
+    .flex-contato {
+        display: flex;
+        flex-direction: column;
+    }
+    iframe {
+        width: 50vw;
+        margin-top: 50px;
+    }
+    .map {
+        order: 2;
+    }
+    .endereco {
+        order: 1;
+    }
+    .social {
+        left: 0;
+        bottom: 0;
+        order: 4;
+        margin-top: 20px;
+    }
+    .formulario {
+        height: 650px;
+        width: 50vw;
+        margin-top: 50px;
+        padding: 0;
+        order: 2;
+    }
+    .formulario p {
+        margin-top: 40px;
+    }
+    .formulario input {
+        width: 40vw
+    }
+    .formulario textarea {
+        width: 40vw;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    #myTopNav {
+        display: none;
+    }
+    #botao-menu {
+        color: black;
+        position: relative;
+        top: 35px;
+        left: -40px;
+        right: 100px;
+        font-size: 1.75rem;
+        display: block;
+        float: right;
+    }
+    .topnav {
+        position: relative;
+        top: 55px;
+        left: 20px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
+    .topnav a {
+        padding: 15px;
+        display: block;
+        background-color: rgb(241, 235, 235);
+        margin: 0;
+        width: 15rem;
+    }
+    .topnav a:hover {
+        background-color: rgb(214, 215, 228);
+    }
+    .botao-nav {
+        padding: 9px 23px;
+        font-size: 14px;
+    }
+    .sobre-nos {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 100px;
+    }
+    .imagem1 {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .div_img2 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 100px;
+    }
+    .imagem2 {
+        padding: 0;
+        margin-top: 50px;
+        width: 400px;
+    }
+    .maps {
+        width: 76vw;
+    }
+    .formulario {
+        width: 76vw;
+        height: 570px;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .formulario input {
+        width: 46vw;
+    }
+    .button-msg {
+        padding: 9px 6vw;
+        font-size: 14px;
+    }
+    .button-wpp {
+        padding: 9px 6vw;
+        font-size: 14px;
+    }
+    .formulario textarea {
+        position: relative;
+        top: 0px;
+        width: 46vw
+    }
+    .form-control {
+        margin: 5px
+    }
+    h6 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .depoimento {
+        width: 80vw;
+    }
+    .depoimento img {
+        width: 50vw;
+    }
+    .depoimento p {
+        width: 65vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .formulario {
+        width: 82vw;
+        height: 580px;
+    }
+    .formulario p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .formulario input {
+        width: 55vw;
+    }
+    .formulario textarea {
+        width: 55vw;
+        margin-top: 5px;
+    }
+    .maps {
+        width: 82vw;
+    }
+    h6 {
+        font-size: 30px;
+        width: 80vw;
+        text-align: center;
+        left: 0;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .imagem1 {
+        width: 350px;
+    }
+    .imagem2 {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #botao-menu {
+        left: 5px;
+        right: 0px;
+    }
+    .topnav {
+        position: relative;
+        top: -20px;
+        left: 30px;
+        margin-top: 5px;
+        margin-bottom: -420px;
+        z-index: 1;
+    }
+    .logo {
+        width: 40vw;
+        padding-top: 25px;
+    }
+    .sobre-nos {
+        padding: 50px 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .sobre-nos p {
+        font-size: 12px;
+    }
+    .imagem1 {
+        width: 350px;
+    }
+    .div_img2 {
+        padding: 50px 10px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .div_img2 p {
+        font-size: 12px;
+    }
+    .imagem2 {
+        width: 350px;
+    }
+    .social {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .imagem1 {
+        width: 300px;
+    }
+    .imagem2 {
+        width: 300px;
+    }
+    .formulario {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .imagem1 {
+        width: 250px;
+    }
+    .imagem2 {
+        width: 250px;
+    }
+    .formulario {
+        left: 0;
+        height: 637px;
+    }
+}
