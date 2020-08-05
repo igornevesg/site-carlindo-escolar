@@ -279,6 +279,7 @@ iframe {
 
 .fim {
     color: white;
+    margin-top: 60px;
 }
 
 @media screen and (min-width:2000px) {
