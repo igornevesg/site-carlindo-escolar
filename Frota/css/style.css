@@ -159,8 +159,10 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+
 /* Contato */
-                                
+
 .contact {
     background-color: #111A47;
     padding: 100px 10vw;
@@ -291,16 +293,13 @@ iframe {
 .social {
     font-size: 36px;
     text-decoration: none;
-    position: relative;
-    left: 350px;
-    bottom: 180px;
 }
 
 .social .fa {
     color: white;
     text-decoration: none;
     width: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .social .fa:hover {
@@ -309,8 +308,4 @@ iframe {
 
 .fim {
     color: white;
-    position: relative;
-    top: 90px;
 }
-
-

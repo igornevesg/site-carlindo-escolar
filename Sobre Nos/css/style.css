@@ -130,8 +130,10 @@ h2 {
     width: 600px;
     padding-left: 100px;
 }
+
+
 /* Contato */
-                                
+
 .contact {
     background-color: #111A47;
     padding: 100px 10vw;
@@ -262,16 +264,13 @@ iframe {
 .social {
     font-size: 36px;
     text-decoration: none;
-    position: relative;
-    left: 350px;
-    bottom: 180px;
 }
 
 .social .fa {
     color: white;
     text-decoration: none;
     width: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .social .fa:hover {
@@ -280,8 +279,6 @@ iframe {
 
 .fim {
     color: white;
-    position: relative;
-    top: 90px;
 }
 
 @media screen and (min-width:2000px) {
@@ -296,6 +293,22 @@ iframe {
     }
     .formulario input {
         width: 400px;
+    }
+    .fim {
+        margin-top: 60px;
+    }
+    .flex-contato {
+        grid-template-rows: 1fr;
+        grid-template-columns: 0.45fr 1fr 1fr;
+    }
+    #name {
+        width: 13.5vw;
+    }
+    #email {
+        width: 13.5vw;
+    }
+    #contactnum {
+        width: 30vw;
     }
 }
 
@@ -354,9 +367,8 @@ iframe {
     .formulario textarea {
         height: 15vh;
     }
-    .social {
-        left: 320px;
-        bottom: 160px;
+    .fim {
+        margin-top: 60px;
     }
 }
 
@@ -531,6 +543,7 @@ iframe {
         font-size: 36px;
     }
 }
+
 @media screen and (max-width: 670px) {
     .depoimento {
         width: 80vw;
@@ -542,6 +555,7 @@ iframe {
         width: 65vw;
     }
 }
+
 @media screen and (max-width: 500px) {
     .formulario {
         width: 82vw;
