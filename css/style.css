@@ -1,1252 +1,1129 @@
-                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
-                    * {
-                        margin: 0;
-                        padding: 0;
-                        outline: 0;
-                        box-sizing: border-box;
-                        font-family: 'Poppins', sans-serif;
-                    }
-                    
-                    #container {
-                        display: flex;
-                        flex-direction: column;
-                        text-align: center;
-                    }
-                    
-                    body {
-                        margin: 0;
-                    }
-                    
-                    .no-decoration {
-                        text-decoration: none;
-                    }
-                    
-                    .no-decoration:hover {
-                        opacity: 0.7;
-                    }
-                    /* header */
-                    
-                    .flex-1 {
-                        flex: 1;
-                        padding: 10px 20vw;
-                    }
-                    
-                    .logo {
-                        padding: 20px;
-                        float: left;
-                    }
-                    
-                    .topnav {
-                        padding: 20px 30px;
-                        float: right;
-                        overflow: hidden;
-                    }
-                    
-                    .topnav a {
-                        display: inline-block;
-                        color: #111A47;
-                        text-align: center;
-                        padding: 6px 8px;
-                        text-decoration: none;
-                        font-size: 17px;
-                    }
-                    
-                    .topnav a:hover {
-                        color: #6D6D6D;
-                        border-bottom: 3px solid #111A47;
-                    }
-                    
-                    #botao-sem-borda:hover {
-                        border: none;
-                    }
-                    
-                    #botao-menu {
-                        display: none;
-                        cursor: pointer;
-                    }
-                    
-                    #myTopNav {
-                        display: block;
-                    }
-                    
-                    .botao-nav {
-                        padding: 12px 30px;
-                        border: none;
-                        border-radius: 8px;
-                        font-size: 16px;
-                        font-weight: bold;
-                        background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
-                        cursor: pointer;
-                        transition: all 0.5s;
-                        position: relative;
-                        overflow: hidden;
-                    }
-                    
-                    .botao-nav:hover:before {
-                        transform: translate(-25%, -25%) rotate(-180deg);
-                    }
-                    
-                    .botao-nav:hover {
-                        background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
-                    }
-                    /* Primeira Div */
-                    
-                    .flex-2 {
-                        padding: 100px 22vw;
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        grid-template-rows: 1fr;
-                        flex: 2;
-                        align-items: center;
-                        text-align: center;
-                    }
-                    
-                    .item1-content1 {
-                        grid-area: 1/1;
-                    }
-                    
-                    .item1-content1 p {
-                        color: #111A47;
-                        text-align: left;
-                        position: relative;
-                        font-weight: 400;
-                        margin-bottom: 20px;
-                    }
-                    
-                    .item2-content1 {
-                        grid-area: 1/2;
-                    }
-                    
-                    .imagem-filhos {
-                        width: 609px;
-                    }
-                    
-                    h1 {
-                        font-size: 50px;
-                        color: #111A47;
-                        text-align: left;
-                        margin-bottom: 20px;
-                        margin-top: -20px;
-                    }
-                    
-                    #botao2 {
-                        padding: 15px 75px;
-                        margin: 0px;
-                        float: left;
-                        top: 20px;
-                    }
-                    /* Segunda Div */
-                    
-                    .flex-3 {
-                        padding: 180px 22vw;
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        grid-template-rows: 1fr;
-                        background-color: #111A47;
-                        gap: 40px;
-                    }
-                    
-                    .item2-content2 {
-                        grid-area: 1/1;
-                    }
-                    
-                    .imagem-onibus {
-                        width: 468px;
-                    }
-                    
-                    h2 {
-                        font-size: 50px;
-                        color: #E4C332;
-                        text-align: left;
-                        margin-bottom: 30px;
-                    }
-                    
-                    .p2 {
-                        color: white;
-                        text-align: left;
-                    }
-                    /* Terceira Div */
-                    
-                    .flex-4 {
-                        padding: 100px 22vw;
-                    }
-                    
-                    h3 {
-                        font-size: 50px;
-                        text-align: center;
-                        color: #111A47;
-                        padding: 60px;
-                    }
-                    
-                    .fotos {
-                        text-align: center;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        gap: 50px;
-                    }
-                    
-                    .foto-crianca {
-                        width: 468px;
-                        padding: 10px;
-                        box-shadow: 0px 0px 17px 9px rgba(235, 235, 235, 1);
-                        transition: all 0.5s ease;
-                    }
-                    
-                    .foto-crianca:hover {
-                        transform: scale(0.9);
-                        transition: all 0.5s ease;
-                    }
-                    
-                    .foto-jovem {
-                        width: 468px;
-                        padding: 10px;
-                        box-shadow: 0px 0px 17px 9px rgba(235, 235, 235, 1);
-                        transition: all 0.5s ease;
-                    }
-                    
-                    .foto-jovem:hover {
-                        transform: scale(0.9);
-                        transition: all 0.5s;
-                    }
-                    /*Quarta Div */
-                    
-                    .flex-5 {
-                        padding: 100px 22vw;
-                        background-color: #111A47;
-                        display: grid;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        grid-template-rows: 1fr;
-                    }
-                    
-                    h4 {
-                        grid-area: 1/1;
-                        font-size: 50px;
-                        padding: 60px;
-                        white-space: nowrap;
-                        text-align: center;
-                        color: #E4C332;
-                        position: relative;
-                        left: 240px;
-                        bottom: 20px;
-                    }
-                    
-                    .blocos {
-                        grid-area: 1/1;
-                        position: relative;
-                        bottom: 30px;
-                    }
-                    
-                    .p-divs {
-                        font-weight: 700;
-                        font-size: 20px;
-                        position: relative;
-                        bottom: 30px;
-                    }
-                    
-                    .bloco1 {
-                        display: flex;
-                        flex-direction: row;
-                    }
-                    
-                    .bloco2 {
-                        display: flex;
-                        flex-direction: row;
-                    }
-                    
-                    span {
-                        font-size: 13px;
-                        position: relative;
-                        bottom: 30px;
-                        text-align: center;
-                    }
-                    
-                    .veiculos {
-                        background: white;
-                        border-radius: 8px;
-                        width: 281px;
-                        margin: 10px;
-                    }
-                    
-                    .veiculos i {
-                        left: 0px;
-                        margin: auto;
-                        font-size: 5vw;
-                        padding: 50px;
-                        width: auto;
-                        color: #111A47;
-                        margin-top: 10px;
-                        margin-bottom: -15px;
-                    }
-                    
-                    .motoristas {
-                        background: white;
-                        border-radius: 8px;
-                        width: 281px;
-                        margin: 10px;
-                    }
-                    
-                    .motoristas i {
-                        left: 0px;
-                        margin: auto;
-                        font-size: 5vw;
-                        padding: 50px 50px;
-                        width: auto;
-                        color: #111A47;
-                        margin-top: 10px;
-                        margin-bottom: -15px;
-                    }
-                    
-                    .monitoras {
-                        background: white;
-                        border-radius: 8px;
-                        width: 281px;
-                        margin: 10px;
-                    }
-                    
-                    .monitoras i {
-                        left: 0px;
-                        margin: auto;
-                        font-size: 5vw;
-                        padding: 50px 50px;
-                        width: auto;
-                        color: #111A47;
-                        margin-top: 10px;
-                        margin-bottom: -15px;
-                    }
-                    
-                    .experiencia {
-                        background: white;
-                        border-radius: 8px;
-                        width: 281px;
-                        margin: 10px;
-                    }
-                    
-                    .experiencia i {
-                        left: 0px;
-                        margin: auto;
-                        font-size: 5vw;
-                        padding: 50px 50px;
-                        width: auto;
-                        color: #111A47;
-                        margin-top: 10px;
-                        margin-bottom: -15px;
-                    }
-                    
-                    .formulario {
-                        background: white;
-                        grid-area: 1/2;
-                        position: relative;
-                        top: 170px;
-                        border-radius: 8px;
-                        padding: 47px;
-                        height: 600px;
-                        width: 30vw;
-                    }
-                    
-                    h5 {
-                        font-size: 30px;
-                        word-wrap: none;
-                        margin-bottom: 30px;
-                        margin-top: 40px;
-                        color: #111A47;
-                    }
-                    
-                    .disp-rota {
-                        display: block;
-                        margin-top: 40px;
-                        color: black;
-                    }
-                    
-                    .form-control {
-                        width: 400px;
-                        height: 30px;
-                        margin: 10px;
-                    }
-                    
-                    .button-msg {
-                        padding: 12px 30px;
-                        border: none;
-                        border-radius: 8px;
-                        font-size: 16px;
-                        font-weight: bold;
-                        background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
-                        cursor: pointer;
-                        transition: all 0.5s;
-                        position: relative;
-                        top: 20px;
-                        color: #111A47;
-                        margin: 10px;
-                    }
-                    
-                    .button-wpp {
-                        padding: 12px 50px;
-                        border: none;
-                        border-radius: 8px;
-                        font-size: 16px;
-                        font-weight: bold;
-                        color: var(--title-white);
-                        background: linear-gradient(118.1deg, #25d366 -2.02%, #11ad4a 129.72%);
-                        cursor: pointer;
-                        transition: all 0.5s;
-                        position: relative;
-                        top: 20px;
-                        color: white;
-                        margin: 10px;
-                    }
-                    /* Quinta Div */
-                    
-                    .flex-6 {
-                        background: white;
-                        padding: 100px 22vw;
-                    }
-                    
-                    .flex-6 i {
-                        color: black;
-                        font-size: 24px;
-                        padding: 80px 50px 0px 35px;
-                        position: relative;
-                        left: 0px;
-                        margin: auto;
-                        cursor: pointer;
-                    }
-                    
-                    h6 {
-                        font-size: 50px;
-                        padding: 60px;
-                        color: #111A47;
-                    }
-                    
-                    .depoimento {
-                        background-color: #f7f7f7;
-                        width: 600px;
-                        margin: auto;
-                        border-radius: 8px;
-                        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.26);
-                    }
-                    
-                    .depoimento img {
-                        width: 360px;
-                        margin: -40px auto -50px auto;
-                    }
-                    
-                    .depoimento p {
-                        font-size: 16px;
-                        width: 400px;
-                        margin: auto;
-                        margin-bottom: 60px;
-                    }
-                    
-                    .depoimento span {
-                        display: block;
-                        font-size: 14px;
-                        font-weight: 700;
-                        margin: auto;
-                    }
-                    
-                    .depoimento i {
-                        margin-top: 20px;
-                        padding: 0px;
-                    }
-                    /* Footer */
-                    
-                    footer {
-                        padding: 100px 22vw;
-                        display: grid;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        grid-template-rows: 1fr;
-                        background-color: #111A47;
-                        margin: auto;
-                    }
-                    
-                    .info {
-                        color: white;
-                        line-height: 50px;
-                        position: relative;
-                        left: 10px;
-                    }
-                    
-                    .info p {
-                        font-size: 30px;
-                        font-weight: 700;
-                        text-align: left;
-                        margin-bottom: 20px;
-                        color: #E4C332;
-                    }
-                    
-                    .info a {
-                        color: white;
-                    }
-                    
-                    .info ul {
-                        text-align: left;
-                    }
-                    
-                    .links {
-                        color: white;
-                        line-height: 50px;
-                        position: relative;
-                        left: 70px;
-                    }
-                    
-                    .links p {
-                        font-size: 30px;
-                        font-weight: 700;
-                        text-align: left;
-                        margin-bottom: 20px;
-                        color: #E4C332;
-                    }
-                    
-                    .links a {
-                        color: white;
-                    }
-                    
-                    .links ul {
-                        text-align: left;
-                    }
-                    
-                    .contato {
-                        color: white;
-                        text-align: left;
-                        line-height: 50px;
-                        position: relative;
-                        left: 10px;
-                    }
-                    
-                    .contato p {
-                        font-size: 30px;
-                        font-weight: 700;
-                        text-align: left;
-                        margin-bottom: 20px;
-                        color: #E4C332;
-                    }
-                    
-                    .contato span {
-                        font-size: 16px;
-                        top: 5px;
-                        white-space: nowrap;
-                    }
-                    
-                    .tel {
-                        margin-top: 20px;
-                    }
-                    
-                    .white-text {
-                        color: white;
-                        position: relative;
-                        left: 30px;
-                    }
-                    
-                    .copy {
-                        color: white;
-                        position: relative;
-                        right: 30px;
-                    }
-                    
-                    .social {
-                        font-size: 30px;
-                    }
-                    
-                    .fa {
-                        position: relative;
-                        right: 100px;
-                        bottom: 30px;
-                        padding: 20px;
-                        font-size: 30px;
-                        width: 20px;
-                        text-align: center;
-                        text-decoration: none;
-                        color: white;
-                    }
-                    
-                    .fa-angle-right {
-                        color: black;
-                        font-size: auto;
-                        padding: 0px;
-                    }
-                    
-                    .fa:hover {
-                        opacity: 0.7;
-                    }
-                    
-                    .fim {
-                        position: relative;
-                        top: 100px;
-                        display: inline-flex;
-                        white-space: nowrap;
-                        margin: auto;
-                    }
-                    
-                    @media screen and (min-width: 2000px) {
-                        .imagem-filhos {
-                            width: 30vw;
-                        }
-                        .imagem-onibus {
-                            width: 25vw;
-                        }
-                        h2 {
-                            margin-top: 150px;
-                        }
-                        h4 {
-                            left: 420px;
-                        }
-                        .veiculos i {
-                            font-size: 4vw;
-                        }
-                        .motoristas i {
-                            font-size: 4vw;
-                        }
-                        .monitoras i {
-                            font-size: 4vw;
-                        }
-                        .experiencia i {
-                            font-size: 4vw;
-                        }
-                        .flex-5 {
-                            padding: 100px 20vw;
-                        }
-                        .links {
-                            left: 30px;
-                        }
-                        .formulario {
-                            height: 614px;
-                        }
-                        .formulario input {
-                            width: 400px;
-                        }
-                        h5 {
-                            margin-top: 30px;
-                            font-size: 36px;
-                        }
-                        .social {
-                            position: relative;
-                            right: 60px;
-                        }
-                        footer {
-                            padding: 100px 600px;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 1440px) {
-                        .flex-1 {
-                            padding: 10px 10vw;
-                        }
-                        .flex-2 {
-                            padding: 100px 10vw;
-                        }
-                        .flex-3 {
-                            padding: 100px 10vw;
-                        }
-                        .flex-4 {
-                            padding: 100px 10vw;
-                        }
-                        .flex-5 {
-                            padding: 100px 10vw;
-                        }
-                        .formulario {
-                            border-radius: 8px;
-                            top: 70px;
-                            padding: 47px;
-                            height: 550px;
-                            width: 560px;
-                            margin: auto;
-                        }
-                        .flex-6 {
-                            padding: 100px 10vw;
-                        }
-                        footer {
-                            padding: 100px 5vw;
-                        }
-                        .links {
-                            left: 0;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 1376px) {
-                        .flex-5 {
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                        }
-                        .blocos {
-                            margin: auto;
-                        }
-                        h4 {
-                            left: 0;
-                            padding: 0;
-                            margin: 40px 0px 40px 0px;
-                        }
-                        .formulario {
-                            width: 580px;
-                            height: 490px;
-                            top: 0;
-                            margin: auto;
-                            padding: 0;
-                            left: 0px;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 1063px) {
-                        .formulario {
-                            width: 585px;
-                            height: 413px;
-                            top: 0;
-                            margin: auto;
-                            padding: 0;
-                            left: 0px;
-                        }
-                        .formulario input {
-                            width: 270px;
-                        }
-                        .formulario textarea {
-                            width: 270px;
-                            position: relative;
-                            top: 22px;
-                        }
-                        footer {
-                            padding: 120px 3vw;
-                            display: grid;
-                            grid-template-rows: 1fr 1fr;
-                            grid-template-columns: 1fr 1fr;
-                            gap: 20px;
-                        }
-                        .links {
-                            left: 0;
-                        }
-                        .button-msg {
-                            padding: 10px 0px;
-                            font-size: 14px;
-                        }
-                        .button-wpp {
-                            padding: 10px 0px;
-                            font-size: 14px;
-                        }
-                        .fim {
-                            display: flex;
-                            flex-direction: row;
-                            gap: 40px;
-                            left: 180px;
-                        }
-                        .copy {
-                            right: 0;
-                        }
-                        .white-text {
-                            left: 0;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 1024px) {
-                        .flex-1 {
-                            padding: 10px 50px;
-                        }
-                        .logo {
-                            padding: 10px;
-                            float: left;
-                        }
-                        .topnav a {
-                            font-size: 14px;
-                        }
-                        .botao-nav {
-                            padding: 10px 28px;
-                            font-size: 14px;
-                        }
-                        .flex-2 {
-                            padding: 100px 50px;
-                        }
-                        h1 {
-                            font-size: 36px;
-                        }
-                        .item1-content1 p {
-                            font-size: 14px;
-                        }
-                        .imagem-filhos {
-                            width: 50vw;
-                        }
-                        .flex-3 {
-                            padding: 100px 50px;
-                        }
-                        h2 {
-                            font-size: 36px;
-                        }
-                        .p2 {
-                            font-size: 14px;
-                        }
-                        .imagem-onibus {
-                            width: 40vw;
-                        }
-                        .flex-4 {
-                            padding: 100px 50px;
-                        }
-                        .fotos {
-                            text-align: center;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            gap: 50px;
-                        }
-                        .school {
-                            width: 468px;
-                        }
-                        .flex-5 {
-                            padding: 100px 0px;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                        }
-                        .blocos {
-                            margin: auto;
-                        }
-                        h4 {
-                            left: 0;
-                        }
-                        .formulario {
-                            height: 530px;
-                        }
-                        .formulario input {
-                            width: 400px;
-                        }
-                        .formulario textarea {
-                            width: 400px;
-                            top: 0;
-                        }
-                        h5 {
-                            margin-top: 25px;
-                        }
-                        .veiculos i {
-                            font-size: 9vw;
-                        }
-                        .motoristas i {
-                            font-size: 9vw;
-                        }
-                        .monitoras i {
-                            font-size: 9vw;
-                        }
-                        .experiencia i {
-                            font-size: 9vw;
-                        }
-                        .flex-6 {
-                            padding: 100px 50px;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 768px) {
-                        h1 {
-                            font-size: 5vw;
-                        }
-                        h2 {
-                            font-size: 5vw;
-                        }
-                        h3 {
-                            font-size: 5vw;
-                        }
-                        h4 {
-                            font-size: 5vw;
-                        }
-                        h5 {
-                            font-size: 5vw;
-                        }
-                        h6 {
-                            font-size: 5vw;
-                        }
-                        footer {
-                            gap: 0;
-                            width: 100%;
-                        }
-                        .foto-crianca {
-                            width: 65vw;
-                        }
-                        .foto-jovem {
-                            width: 65vw;
-                        }
-                        .school {
-                            width: 65vw;
-                        }
-                        #myTopNav {
-                            display: none;
-                        }
-                        #botao-menu {
-                            color: black;
-                            position: relative;
-                            top: 15px;
-                            left: -40px;
-                            right: 100px;
-                            font-size: 1.75rem;
-                            display: block;
-                            float: right;
-                        }
-                        .topnav {
-                            position: relative;
-                            top: 55px;
-                            left: 20px;
-                            margin-top: 5px;
-                            margin-bottom: -420px;
-                            z-index: 1;
-                        }
-                        .topnav a {
-                            padding: 15px;
-                            display: block;
-                            background-color: rgb(241, 235, 235);
-                            margin: 0;
-                            width: 15rem;
-                        }
-                        .topnav a:hover {
-                            background-color: rgb(214, 215, 228);
-                        }
-                        .botao-nav {
-                            padding: 9px 23px;
-                            font-size: 14px;
-                        }
-                        #botao-2 {
-                            padding: 9px 23px;
-                            font-size: 14px;
-                        }
-                        .flex-2 {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .imagem-filhos {
-                            margin-top: 60px;
-                        }
-                        .flex-3 {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .imagem-onibus {
-                            margin-top: 60px;
-                        }
-                        .flex-5 {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        h4 {
-                            white-space: initial;
-                            left: 0;
-                        }
-                        .veiculos i {
-                            font-size: 12vw;
-                        }
-                        .motoristas i {
-                            font-size: 12vw;
-                        }
-                        .monitoras i {
-                            font-size: 12vw;
-                        }
-                        .experiencia i {
-                            font-size: 12vw;
-                        }
-                        .formulario {
-                            width: 76vw;
-                            height: 500px;
-                            top: 0;
-                            margin: 0;
-                            padding: 0;
-                            margin: auto;
-                        }
-                        .formulario input {
-                            width: 46vw;
-                        }
-                        .button-msg {
-                            padding: 9px 6vw;
-                            font-size: 14px;
-                        }
-                        .button-wpp {
-                            padding: 9px 6vw;
-                            font-size: 14px;
-                        }
-                        .formulario textarea {
-                            position: relative;
-                            top: 0px;
-                            width: 46vw
-                        }
-                        .form-control {
-                            margin: 5px
-                        }
-                        h5 {
-                            margin-top: 50px;
-                            margin-bottom: 20px;
-                        }
-                        footer {
-                            padding: 50px 10vw;
-                            display: flex;
-                            flex-direction: column;
-                            gap: 50px;
-                        }
-                        .links {
-                            left: 10px;
-                        }
-                        .links p {
-                            font-size: 5vw;
-                        }
-                        .info p {
-                            font-size: 5vw;
-                        }
-                        .contato p {
-                            font-size: 5vw;
-                        }
-                        .social {
-                            margin-top: 30px;
-                            font-size: 28px;
-                            width: 200px;
-                            position: relative;
-                            left: 60px;
-                        }
-                        .fim {
-                            top: 30px;
-                            left: 0;
-                            display: block;
-                            margin: 0;
-                        }
-                        .white-text {
-                            left: 0;
-                        }
-                        .copy {
-                            right: 0;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 670px) {
-                        .depoimento {
-                            width: 80vw;
-                        }
-                        .depoimento img {
-                            width: 50vw;
-                        }
-                        .depoimento p {
-                            width: 65vw;
-                        }
-                        .bloco1 {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .bloco2 {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        .veiculos {
-                            margin: auto;
-                        }
-                        .motoristas {
-                            margin: auto;
-                            margin-top: 50px;
-                        }
-                        .monitoras {
-                            margin: auto;
-                            margin-top: 50px;
-                        }
-                        .experiencia {
-                            margin: auto;
-                            margin-top: 50px;
-                            margin-bottom: 20px;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 425px) {
-                        #botao-menu {
-                            top: 15px;
-                            left: 0px;
-                            right: 0px;
-                        }
-                        .topnav {
-                            position: relative;
-                            top: -20px;
-                            left: 30px;
-                            margin-top: 5px;
-                            margin-bottom: -420px;
-                            z-index: 1;
-                        }
-                        .logo {
-                            width: 40vw;
-                            padding-top: 25px;
-                        }
-                        h1 {
-                            font-size: 30px;
-                            margin-top: -50px;
-                        }
-                        .item1-content1 p {
-                            font-size: 14px;
-                        }
-                        #botao2 {
-                            padding: 12px 50px;
-                        }
-                        .imagem-filhos {
-                            width: 100vw;
-                        }
-                        h2 {
-                            font-size: 30px;
-                        }
-                        .p2 {
-                            font-size: 14px;
-                        }
-                        .imagem-onibus {
-                            width: 80vw;
-                        }
-                        h3 {
-                            font-size: 30px;
-                            width: 80vw;
-                            text-align: center;
-                            left: 0;
-                            margin-bottom: 40px;
-                            padding: 0;
-                        }
-                        .foto-crianca {
-                            width: 80vw;
-                            position: relative;
-                            right: 10px;
-                        }
-                        .foto-jovem {
-                            width: 80vw;
-                            position: relative;
-                            right: 10px;
-                        }
-                        .school {
-                            width: 80vw;
-                            position: relative;
-                            right: 10px;
-                            font-size: 20px;
-                            height: auto;
-                        }
-                        h4 {
-                            font-size: 30px;
-                            white-space: initial;
-                        }
-                        .formulario {
-                            width: 82vw;
-                            height: 562px;
-                        }
-                        .formulario input {
-                            width: 55vw;
-                        }
-                        .formulario textarea {
-                            width: 55vw;
-                            margin-top: 5px;
-                        }
-                        h6 {
-                            font-size: 30px;
-                            width: 80vw;
-                            text-align: center;
-                            left: 0;
-                            margin-bottom: 40px;
-                            padding: 0;
-                        }
-                        .depoimento {
-                            width: 80vw;
-                            position: relative;
-                            right: 5px;
-                        }
-                        .depoimento img {
-                            width: 50vw;
-                            margin-top: 0;
-                        }
-                        .depoimento p {
-                            font-size: 14px;
-                            width: 70vw;
-                            margin-top: 20px;
-                        }
-                        footer {
-                            padding: 50px 40px;
-                            margin: 0;
-                        }
-                        .social {
-                            left: 90px;
-                            display: flex;
-                            flex-direction: row;
-                        }
-                        .info p {
-                            font-size: 30px;
-                            margin-top: 20px;
-                        }
-                        .links p {
-                            font-size: 30px;
-                            margin-top: 20px;
-                        }
-                        .contato p {
-                            font-size: 30px;
-                            margin-top: 20px;
-                        }
-                        .contato address {
-                            font-size: 12px;
-                        }
-                        .contato span {
-                            font-size: 12px;
-                        }
-                    }
-                    
-                    @media screen and (max-width:375px) {
-                        .formulario {
-                            left: 0px;
-                        }
-                        h6 {
-                            margin-left: -10px;
-                        }
-                        .depoimento {
-                            right: 10px;
-                        }
-                    }
-                    
-                    @media screen and (max-width:320px) {
-                        .formulario {
-                            left: 0;
-                            height: 637px;
-                        }
-                        .depoimento {
-                            right: 20px;
-                        }
-                        .info p {
-                            font-size: 24px;
-                        }
-                        .links p {
-                            font-size: 24px;
-                        }
-                        .contato p {
-                            font-size: 24px;
-                        }
-                        .contato address {
-                            font-size: 12px;
-                        }
-                        .contato span {
-                            font-size: 12px;
-                        }
-                        .no-decoration {
-                            font-size: 12px;
-                        }
-                        footer {
-                            padding: 50px 20px;
-                        }
-                    }
-                    
-                    @media screen and (max-width:280px) {
-                        #botao2 {
-                            font-size: 12px;
-                        }
-                        .veiculos {
-                            width: 80vw;
-                        }
-                        .motoristas {
-                            width: 80vw;
-                        }
-                        .monitoras {
-                            width: 80vw;
-                        }
-                        .experiencia {
-                            width: 80vw;
-                        }
-                        .bloco1 span {
-                            font-size: 10px;
-                        }
-                        .p-divs {
-                            font-size: 14px;
-                            white-space: initial;
-                        }
-                        .copy {
-                            font-size: 12px;
-                        }
-                        .white-text {
-                            font-size: 12px;
-                        }
-                        .contato address {
-                            font-size: 3vw;
-                        }
-                        .contato span {
-                            font-size: 3vw;
-                        }
-                    }
+                                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                    outline: 0;
+                                    box-sizing: border-box;
+                                    font-family: 'Poppins', sans-serif;
+                                }
+                                
+                                #container {
+                                    display: flex;
+                                    flex-direction: column;
+                                    text-align: center;
+                                }
+                                
+                                body {
+                                    margin: 0;
+                                }
+                                
+                                .no-decoration {
+                                    text-decoration: none;
+                                }
+                                
+                                .no-decoration:hover {
+                                    opacity: 0.7;
+                                }
+                                /* header */
+                                
+                                .flex-1 {
+                                    flex: 1;
+                                    padding: 10px 20vw;
+                                }
+                                
+                                .logo {
+                                    padding: 20px;
+                                    float: left;
+                                }
+                                
+                                .topnav {
+                                    padding: 20px 30px;
+                                    float: right;
+                                    overflow: hidden;
+                                }
+                                
+                                .topnav a {
+                                    display: inline-block;
+                                    color: #111A47;
+                                    text-align: center;
+                                    padding: 6px 8px;
+                                    text-decoration: none;
+                                    font-size: 17px;
+                                }
+                                
+                                .topnav a:hover {
+                                    color: #6D6D6D;
+                                    border-bottom: 3px solid #111A47;
+                                }
+                                
+                                #botao-sem-borda:hover {
+                                    border: none;
+                                }
+                                
+                                #botao-menu {
+                                    display: none;
+                                    cursor: pointer;
+                                }
+                                
+                                #myTopNav {
+                                    display: block;
+                                }
+                                
+                                .botao-nav {
+                                    padding: 12px 30px;
+                                    border: none;
+                                    border-radius: 8px;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
+                                    cursor: pointer;
+                                    transition: all 0.5s;
+                                    position: relative;
+                                    overflow: hidden;
+                                }
+                                
+                                .botao-nav:hover:before {
+                                    transform: translate(-25%, -25%) rotate(-180deg);
+                                }
+                                
+                                .botao-nav:hover {
+                                    background: linear-gradient(118.1deg, #f8f400 -2.02%, #E4C332 129.72%);
+                                }
+                                /* Primeira Div */
+                                
+                                .flex-2 {
+                                    padding: 100px 22vw;
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr;
+                                    grid-template-rows: 1fr;
+                                    flex: 2;
+                                    align-items: center;
+                                    text-align: center;
+                                }
+                                
+                                .item1-content1 {
+                                    grid-area: 1/1;
+                                }
+                                
+                                .item1-content1 p {
+                                    color: #111A47;
+                                    text-align: left;
+                                    position: relative;
+                                    font-weight: 400;
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .item2-content1 {
+                                    grid-area: 1/2;
+                                }
+                                
+                                .imagem-filhos {
+                                    width: 609px;
+                                }
+                                
+                                h1 {
+                                    font-size: 50px;
+                                    color: #111A47;
+                                    text-align: left;
+                                    margin-bottom: 20px;
+                                    margin-top: -20px;
+                                }
+                                
+                                #botao2 {
+                                    padding: 15px 75px;
+                                    margin: 0px;
+                                    float: left;
+                                    top: 20px;
+                                }
+                                /* Segunda Div */
+                                
+                                .flex-3 {
+                                    padding: 180px 22vw;
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr;
+                                    grid-template-rows: 1fr;
+                                    background-color: #111A47;
+                                    gap: 40px;
+                                }
+                                
+                                .item2-content2 {
+                                    grid-area: 1/1;
+                                }
+                                
+                                .imagem-onibus {
+                                    width: 468px;
+                                }
+                                
+                                h2 {
+                                    font-size: 50px;
+                                    color: #E4C332;
+                                    text-align: left;
+                                    margin-bottom: 30px;
+                                }
+                                
+                                .p2 {
+                                    color: white;
+                                    text-align: left;
+                                }
+                                /* Terceira Div */
+                                
+                                .flex-4 {
+                                    padding: 100px 22vw;
+                                }
+                                
+                                h3 {
+                                    font-size: 50px;
+                                    text-align: center;
+                                    color: #111A47;
+                                    padding: 60px;
+                                }
+                                
+                                .fotos {
+                                    text-align: center;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    gap: 50px;
+                                }
+                                
+                                .foto-crianca {
+                                    width: 468px;
+                                    padding: 10px;
+                                    box-shadow: 0px 0px 17px 9px rgba(235, 235, 235, 1);
+                                    transition: all 0.5s ease;
+                                }
+                                
+                                .foto-crianca:hover {
+                                    transform: scale(0.9);
+                                    transition: all 0.5s ease;
+                                }
+                                
+                                .foto-jovem {
+                                    width: 468px;
+                                    padding: 10px;
+                                    box-shadow: 0px 0px 17px 9px rgba(235, 235, 235, 1);
+                                    transition: all 0.5s ease;
+                                }
+                                
+                                .foto-jovem:hover {
+                                    transform: scale(0.9);
+                                    transition: all 0.5s;
+                                }
+                                /*Quarta Div */
+                                
+                                .flex-5 {
+                                    padding: 100px 22vw;
+                                    background-color: #111A47;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }
+                                
+                                h4 {
+                                    grid-area: 1/1;
+                                    font-size: 50px;
+                                    margin-bottom: 60px;
+                                    white-space: nowrap;
+                                    text-align: center;
+                                    color: #E4C332;
+                                }
+                                
+                                .p-divs {
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    position: relative;
+                                    bottom: 20px;
+                                    white-space: nowrap;
+                                }
+                                
+                                .blocos {
+                                    margin: auto;
+                                }
+                                
+                                .bloco1 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                .bloco2 {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
+                                #span_blocos {
+                                    position: relative;
+                                    bottom: 15px;
+                                    text-align: left;
+                                    margin: auto;
+                                }
+                                
+                                .veiculos {
+                                    background: white;
+                                    border-radius: 8px;
+                                    width: 350px;
+                                    height: 350px;
+                                    margin: 30px;
+                                    padding: 20px;
+                                }
+                                
+                                .veiculos i {
+                                    left: 0px;
+                                    margin: auto;
+                                    font-size: 5vw;
+                                    padding: 50px;
+                                    width: auto;
+                                    color: #111A47;
+                                }
+                                
+                                .motoristas {
+                                    background: white;
+                                    border-radius: 8px;
+                                    width: 350px;
+                                    height: 350px;
+                                    margin: 30px;
+                                    padding: 20px;
+                                }
+                                
+                                .motoristas i {
+                                    left: 0px;
+                                    margin: auto;
+                                    font-size: 5vw;
+                                    padding: 50px 50px;
+                                    width: auto;
+                                    color: #111A47;
+                                }
+                                
+                                .monitoras {
+                                    background: white;
+                                    border-radius: 8px;
+                                    width: 350px;
+                                    height: 350px;
+                                    margin: 30px;
+                                    padding: 20px;
+                                }
+                                
+                                .monitoras i {
+                                    left: 0px;
+                                    margin: auto;
+                                    font-size: 5vw;
+                                    padding: 50px 50px;
+                                    width: auto;
+                                    color: #111A47;
+                                }
+                                
+                                .experiencia {
+                                    background: white;
+                                    border-radius: 8px;
+                                    width: 350px;
+                                    height: 350px;
+                                    margin: 30px;
+                                    padding: 20px;
+                                }
+                                
+                                .experiencia i {
+                                    left: 0px;
+                                    margin: auto;
+                                    font-size: 5vw;
+                                    padding: 50px 50px;
+                                    width: auto;
+                                    color: #111A47;
+                                }
+                                /* Quinta Div */
+                                
+                                .flex-6 {
+                                    background: white;
+                                    padding: 100px 22vw;
+                                }
+                                
+                                .flex-6 i {
+                                    color: black;
+                                    font-size: 24px;
+                                    padding: 80px 50px 0px 35px;
+                                    position: relative;
+                                    left: 0px;
+                                    margin: auto;
+                                    cursor: pointer;
+                                }
+                                
+                                h5 {
+                                    font-size: 50px;
+                                    margin-bottom: 60px;
+                                    color: #111A47;
+                                }
+                                
+                                .depoimento {
+                                    background-color: #f7f7f7;
+                                    width: 600px;
+                                    margin: auto;
+                                    border-radius: 8px;
+                                    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.26);
+                                }
+                                
+                                .depoimento img {
+                                    width: 360px;
+                                    margin: -40px auto -50px auto;
+                                }
+                                
+                                .depoimento p {
+                                    font-size: 16px;
+                                    width: 400px;
+                                    margin: auto;
+                                    margin-bottom: 60px;
+                                }
+                                
+                                .depoimento span {
+                                    display: block;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    margin: auto;
+                                }
+                                
+                                .depoimento i {
+                                    margin-top: 20px;
+                                    padding: 0px;
+                                }
+                                /* Contato */
+                                
+                                .contact {
+                                    background-color: #111A47;
+                                    padding: 100px 10vw;
+                                }
+                                
+                                .flex-contato {
+                                    display: grid;
+                                    grid-template-rows: 1fr;
+                                    grid-template-columns: 0.25fr 1fr 1.5fr;
+                                    text-align: center;
+                                }
+                                
+                                .formulario {
+                                    background: white;
+                                    grid-area: 1/3;
+                                    border-radius: 8px;
+                                    padding: 50px;
+                                    height: 650px;
+                                    width: 40vw;
+                                }
+                                
+                                .formulario p {
+                                    font-size: 28px;
+                                    font-weight: 700;
+                                    white-space: nowrap;
+                                    margin-bottom: 5px;
+                                    color: #111A47;
+                                }
+                                
+                                .disp-rota {
+                                    display: block;
+                                    margin-top: 40px;
+                                    color: black;
+                                }
+                                
+                                .form-control {
+                                    width: 30vw;
+                                    height: 30px;
+                                    margin: 10px;
+                                }
+                                
+                                .formulario textarea {
+                                    height: 23vh;
+                                }
+                                
+                                .button-msg {
+                                    padding: 12px 30px;
+                                    border: none;
+                                    border-radius: 8px;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    background: linear-gradient(118.1deg, #E4C332 -2.02%, #f8f400 129.72%);
+                                    cursor: pointer;
+                                    transition: all 0.5s;
+                                    position: relative;
+                                    top: 20px;
+                                    color: #111A47;
+                                    margin: 10px;
+                                }
+                                
+                                .button-wpp {
+                                    padding: 12px 60px;
+                                    border: none;
+                                    border-radius: 8px;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    color: var(--title-white);
+                                    background: linear-gradient(118.1deg, #25d366 -2.02%, #11ad4a 129.72%);
+                                    cursor: pointer;
+                                    transition: all 0.5s;
+                                    position: relative;
+                                    top: 20px;
+                                    color: white;
+                                    margin: 10px;
+                                }
+                                
+                                h6 {
+                                    font-size: 50px;
+                                    padding: 60px;
+                                    color: #E4C332;
+                                }
+                                
+                                .endereco {
+                                    text-align: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                
+                                .endereco i {
+                                    font-size: 36px;
+                                    color: #E4C332;
+                                    padding: 25px;
+                                }
+                                
+                                .endereco p {
+                                    color: white;
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                }
+                                
+                                .endereco address {
+                                    color: white;
+                                    white-space: normal;
+                                    font-size: 16px;
+                                }
+                                
+                                .endereco span {
+                                    color: white;
+                                    white-space: normal;
+                                    font-size: 16px;
+                                }
+                                
+                                #phone {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                
+                                #email {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                
+                                iframe {
+                                    width: 24vw;
+                                    border-radius: 10px;
+                                }
+                                
+                                .social {
+                                    font-size: 36px;
+                                    text-decoration: none;
+                                    position: relative;
+                                    left: 350px;
+                                    bottom: 180px;
+                                }
+                                
+                                .social .fa {
+                                    color: white;
+                                    text-decoration: none;
+                                    width: 50px;
+                                    margin-top: 20px;
+                                }
+                                
+                                .social .fa:hover {
+                                    opacity: 0.7;
+                                }
+                                
+                                .fim {
+                                    color: white;
+                                    position: relative;
+                                    top: 90px;
+                                }
+                                
+                                @media screen and (min-width: 2000px) {
+                                    .imagem-filhos {
+                                        width: 30vw;
+                                    }
+                                    .imagem-onibus {
+                                        width: 25vw;
+                                    }
+                                    h2 {
+                                        margin-top: 150px;
+                                    }
+                                    h4 {
+                                        left: 420px;
+                                    }
+                                    .veiculos i {
+                                        font-size: 4vw;
+                                    }
+                                    .motoristas i {
+                                        font-size: 4vw;
+                                    }
+                                    .monitoras i {
+                                        font-size: 4vw;
+                                    }
+                                    .experiencia i {
+                                        font-size: 4vw;
+                                    }
+                                    .flex-5 {
+                                        padding: 100px 20vw;
+                                    }
+                                    .links {
+                                        left: 30px;
+                                    }
+                                    .formulario {
+                                        height: 614px;
+                                    }
+                                    .formulario input {
+                                        width: 400px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 1457px) {
+                                    .flex-1 {
+                                        padding: 10px 10vw;
+                                    }
+                                    .flex-2 {
+                                        padding: 100px 10vw;
+                                    }
+                                    .flex-3 {
+                                        padding: 100px 10vw;
+                                    }
+                                    .flex-4 {
+                                        padding: 100px 10vw;
+                                    }
+                                    .flex-5 {
+                                        padding: 100px 10vw;
+                                    }
+                                    .flex-contato {
+                                        display: grid;
+                                        grid-template-rows: 1fr;
+                                        grid-template-columns: 0.35fr 1fr 1fr;
+                                        text-align: center;
+                                    }
+                                    .formulario {
+                                        border-radius: 8px;
+                                        padding: 47px;
+                                        height: 620px;
+                                        width: 35vw;
+                                        margin: auto;
+                                    }
+                                    .formulario p {
+                                        white-space: normal;
+                                    }
+                                    .form-control {
+                                        width: 25vw;
+                                        height: 30px;
+                                        margin: 10px;
+                                    }
+                                    .formulario textarea {
+                                        height: 15vh;
+                                    }
+                                    .flex-6 {
+                                        padding: 100px 10vw;
+                                    }
+                                    .social {
+                                        left: 320px;
+                                        bottom: 160px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 1200px) {
+                                    .flex-1 {
+                                        padding: 10px 50px;
+                                    }
+                                    .logo {
+                                        padding: 10px;
+                                        float: left;
+                                    }
+                                    .topnav a {
+                                        font-size: 14px;
+                                    }
+                                    .botao-nav {
+                                        padding: 10px 28px;
+                                        font-size: 14px;
+                                    }
+                                    .flex-2 {
+                                        padding: 100px 50px;
+                                    }
+                                    h1 {
+                                        font-size: 36px;
+                                    }
+                                    .item1-content1 p {
+                                        font-size: 14px;
+                                    }
+                                    .imagem-filhos {
+                                        width: 50vw;
+                                    }
+                                    .flex-3 {
+                                        padding: 100px 50px;
+                                    }
+                                    h2 {
+                                        font-size: 36px;
+                                    }
+                                    .p2 {
+                                        font-size: 14px;
+                                    }
+                                    .imagem-onibus {
+                                        width: 40vw;
+                                    }
+                                    .flex-4 {
+                                        padding: 100px 50px;
+                                    }
+                                    .fotos {
+                                        text-align: center;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        gap: 50px;
+                                    }
+                                    .school {
+                                        width: 468px;
+                                    }
+                                    .flex-5 {
+                                        padding: 100px 0px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                    }
+                                    .blocos {
+                                        margin: auto;
+                                    }
+                                    h4 {
+                                        left: 0;
+                                    }
+                                    .flex-contato {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    iframe {
+                                        width: 50vw;
+                                        margin-top: 50px;
+                                    }
+                                    .map {
+                                        order: 2;
+                                    }
+                                    .endereco {
+                                        order: 1;
+                                    }
+                                    .social {
+                                        left: 0;
+                                        bottom: 0;
+                                        order: 4;
+                                        margin-top: 20px;
+                                    }
+                                    .formulario {
+                                        height: 650px;
+                                        width: 50vw;
+                                        margin-top: 50px;
+                                        padding: 0;
+                                        order: 2;
+                                    }
+                                    .formulario p {
+                                        margin-top: 40px;
+                                    }
+                                    .formulario input {
+                                        width: 40vw
+                                    }
+                                    .formulario textarea {
+                                        width: 40vw;
+                                        top: 0;
+                                    }
+                                    .veiculos i {
+                                        font-size: 9vw;
+                                    }
+                                    .motoristas i {
+                                        font-size: 9vw;
+                                    }
+                                    .monitoras i {
+                                        font-size: 9vw;
+                                    }
+                                    .experiencia i {
+                                        font-size: 9vw;
+                                    }
+                                    .flex-6 {
+                                        padding: 100px 50px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 880px) {
+                                    h1 {
+                                        font-size: 36px;
+                                    }
+                                    h2 {
+                                        font-size: 36px;
+                                    }
+                                    h3 {
+                                        font-size: 36px;
+                                    }
+                                    h4 {
+                                        font-size: 36px;
+                                    }
+                                    h5 {
+                                        font-size: 36px;
+                                    }
+                                    h6 {
+                                        font-size: 36px;
+                                    }
+                                    .foto-crianca {
+                                        width: 65vw;
+                                    }
+                                    .foto-jovem {
+                                        width: 65vw;
+                                    }
+                                    .school {
+                                        width: 65vw;
+                                    }
+                                    #myTopNav {
+                                        display: none;
+                                    }
+                                    #botao-menu {
+                                        color: black;
+                                        position: relative;
+                                        top: 15px;
+                                        left: -40px;
+                                        right: 100px;
+                                        font-size: 1.75rem;
+                                        display: block;
+                                        float: right;
+                                    }
+                                    .topnav {
+                                        position: relative;
+                                        top: 55px;
+                                        left: 20px;
+                                        margin-top: 5px;
+                                        margin-bottom: -420px;
+                                        z-index: 1;
+                                    }
+                                    .topnav a {
+                                        padding: 15px;
+                                        display: block;
+                                        background-color: rgb(241, 235, 235);
+                                        margin: 0;
+                                        width: 15rem;
+                                    }
+                                    .topnav a:hover {
+                                        background-color: rgb(214, 215, 228);
+                                    }
+                                    .botao-nav {
+                                        padding: 9px 23px;
+                                        font-size: 14px;
+                                    }
+                                    #botao-2 {
+                                        padding: 9px 23px;
+                                        font-size: 14px;
+                                    }
+                                    .flex-2 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .imagem-filhos {
+                                        margin-top: 60px;
+                                    }
+                                    .flex-3 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .imagem-onibus {
+                                        margin-top: 60px;
+                                    }
+                                    .flex-5 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    h4 {
+                                        white-space: normal;
+                                        left: 0;
+                                        font-size: 36px;
+                                    }
+                                    .bloco1 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .bloco2 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .veiculos i {
+                                        font-size: 12vw;
+                                    }
+                                    .motoristas i {
+                                        font-size: 12vw;
+                                    }
+                                    .monitoras i {
+                                        font-size: 12vw;
+                                    }
+                                    .experiencia i {
+                                        font-size: 12vw;
+                                    }
+                                    .maps {
+                                        width: 76vw;
+                                    }
+                                    .formulario {
+                                        width: 76vw;
+                                        height: 570px;
+                                        top: 0;
+                                        margin: 0;
+                                        padding: 0;
+                                        margin: auto;
+                                        margin-top: 50px;
+                                    }
+                                    .formulario input {
+                                        width: 46vw;
+                                    }
+                                    .button-msg {
+                                        padding: 9px 6vw;
+                                        font-size: 14px;
+                                    }
+                                    .button-wpp {
+                                        padding: 9px 6vw;
+                                        font-size: 14px;
+                                    }
+                                    .formulario textarea {
+                                        position: relative;
+                                        top: 0px;
+                                        width: 46vw
+                                    }
+                                    .form-control {
+                                        margin: 5px
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 670px) {
+                                    .depoimento {
+                                        width: 80vw;
+                                    }
+                                    .depoimento img {
+                                        width: 50vw;
+                                    }
+                                    .depoimento p {
+                                        width: 65vw;
+                                    }
+                                    .bloco1 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .bloco2 {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    .veiculos {
+                                        margin: auto;
+                                    }
+                                    .motoristas {
+                                        margin: auto;
+                                        margin-top: 50px;
+                                    }
+                                    .monitoras {
+                                        margin: auto;
+                                        margin-top: 50px;
+                                    }
+                                    .experiencia {
+                                        margin: auto;
+                                        margin-top: 50px;
+                                        margin-bottom: 20px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 500px) {
+                                    #botao-menu {
+                                        top: 15px;
+                                        left: 0px;
+                                        right: 0px;
+                                    }
+                                    .topnav {
+                                        position: relative;
+                                        top: -20px;
+                                        left: 30px;
+                                        margin-top: 5px;
+                                        margin-bottom: -420px;
+                                        z-index: 1;
+                                    }
+                                    .logo {
+                                        width: 40vw;
+                                        padding-top: 25px;
+                                    }
+                                    h1 {
+                                        font-size: 30px;
+                                        margin-top: -50px;
+                                    }
+                                    .item1-content1 p {
+                                        font-size: 14px;
+                                    }
+                                    #botao2 {
+                                        padding: 12px 50px;
+                                    }
+                                    .imagem-filhos {
+                                        width: 100vw;
+                                    }
+                                    h2 {
+                                        font-size: 30px;
+                                    }
+                                    .p2 {
+                                        font-size: 14px;
+                                    }
+                                    .imagem-onibus {
+                                        width: 80vw;
+                                    }
+                                    h3 {
+                                        font-size: 30px;
+                                        width: 80vw;
+                                        text-align: center;
+                                        left: 0;
+                                        margin-bottom: 40px;
+                                        padding: 0;
+                                    }
+                                    .foto-crianca {
+                                        width: 80vw;
+                                        position: relative;
+                                        right: 10px;
+                                    }
+                                    .foto-jovem {
+                                        width: 80vw;
+                                        position: relative;
+                                        right: 10px;
+                                    }
+                                    .school {
+                                        width: 80vw;
+                                        position: relative;
+                                        right: 10px;
+                                        font-size: 20px;
+                                        height: auto;
+                                    }
+                                    h4 {
+                                        font-size: 30px;
+                                        white-space: initial;
+                                    }
+                                    .formulario {
+                                        width: 82vw;
+                                        height: 580px;
+                                    }
+                                    .formulario p {
+                                        font-size: 24px;
+                                        margin-bottom: 20px;
+                                    }
+                                    .formulario input {
+                                        width: 55vw;
+                                    }
+                                    .formulario textarea {
+                                        width: 55vw;
+                                        margin-top: 5px;
+                                    }
+                                    .maps {
+                                        width: 82vw;
+                                    }
+                                    .veiculos {
+                                        width: 300px;
+                                        height: 300px;
+                                    }
+                                    .veiculos p {
+                                        font-size: 20px;
+                                    }
+                                    .veiculos span {
+                                        font-size: 12px;
+                                    }
+                                    .motoristas {
+                                        width: 300px;
+                                        height: 300px;
+                                    }
+                                    .motoristas p {
+                                        font-size: 20px;
+                                    }
+                                    .motoristas span {
+                                        font-size: 12px;
+                                    }
+                                    .monitoras {
+                                        width: 300px;
+                                        height: 300px;
+                                    }
+                                    .monitoras p {
+                                        font-size: 20px;
+                                    }
+                                    .monitoras span {
+                                        font-size: 12px;
+                                    }
+                                    .experiencia {
+                                        width: 300px;
+                                        height: 300px;
+                                    }
+                                    .experiencia p {
+                                        font-size: 20px;
+                                    }
+                                    .experiencia span {
+                                        font-size: 12px;
+                                    }
+                                    h6 {
+                                        font-size: 30px;
+                                        width: 80vw;
+                                        text-align: center;
+                                        left: 0;
+                                        margin-bottom: 40px;
+                                        padding: 0;
+                                    }
+                                    .depoimento {
+                                        width: 80vw;
+                                        position: relative;
+                                        right: 5px;
+                                    }
+                                    .depoimento img {
+                                        width: 50vw;
+                                        margin-top: 0;
+                                    }
+                                    .depoimento p {
+                                        font-size: 14px;
+                                        width: 70vw;
+                                        margin-top: 20px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width:375px) {
+                                    .formulario {
+                                        left: 0px;
+                                    }
+                                    h6 {
+                                        margin-left: -10px;
+                                    }
+                                    .depoimento {
+                                        right: 10px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width:320px) {
+                                    .formulario {
+                                        left: 0;
+                                        height: 637px;
+                                    }
+                                    .depoimento {
+                                        right: 20px;
+                                    }
+                                    .no-decoration {
+                                        font-size: 12px;
+                                    }
+                                }
+                                
+                                @media screen and (max-width:280px) {
+                                    #botao2 {
+                                        font-size: 12px;
+                                    }
+                                    .veiculos {
+                                        width: 80vw;
+                                    }
+                                    .motoristas {
+                                        width: 80vw;
+                                    }
+                                    .monitoras {
+                                        width: 80vw;
+                                    }
+                                    .experiencia {
+                                        width: 80vw;
+                                    }
+                                    .bloco1 span {
+                                        font-size: 10px;
+                                    }
+                                    .p-divs {
+                                        font-size: 14px;
+                                        white-space: initial;
+                                    }
+                                    .copy {
+                                        font-size: 12px;
+                                    }
+                                    .white-text {
+                                        font-size: 12px;
+                                    }
+                                }
