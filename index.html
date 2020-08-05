@@ -39,7 +39,7 @@
         <div class="item1-content2">
             <h2> Segurança em primeiro lugar </h2>
             <p class="p2">Seja a caminho da escola ou faculdade, a segurança dos nossos passageiros vem sempre em primeiro lugar, com cintos de segurança em todos os assentos e com saídas e equipamentos de emergência em dia</p>
-            <span>Confira nossa frota <i class=" fa fa-arrow-right" aria-hidden="true" ></i></span>
+            <a class="confira" href="./Frota/frota.html"><span>Confira nossa frota <i class=" fa fa-arrow-right" aria-hidden="true" ></i></span></a>
         </div>
         <div class="item2-content2">
             <img class="imagem-onibus" src="./Images/onibus.png" alt="vetor de onibus escolar">
@@ -101,10 +101,12 @@
             <span>Universitário</span>
             <i class="fa fa-google"></i>
         </div>
+        <div class="setas">
         <i class="fa fa-chevron-left" aria-hidden="true" onclick="backward()"></i>
         <i class="fa fa-chevron-right" aria-hidden="true" onclick="forward()"></i>
+        </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contrate">
         <h6>Contato</h6>
         <div class="flex-contato">
             <div class="endereco">
@@ -140,7 +142,7 @@
                 <textarea name="mensagem" class="form-control" cols="50" rows="4" placeholder="Mensagem"></textarea>
                 <input class="button-msg" type="submit" name="submit" value="Enviar mensagem">
                 <a href="https://wa.me/5538991565540" target="_blank"> <input class="button-wpp" type="button" value="Whatsapp"></a>
-                <a class="disp-rota" href="#">Verifique disponibilidade de rotas</a>
+                <span class="disp-rota">*Verifique disponibilidade de rotas</span>
             </div>
         </div>
         <div class="fim">

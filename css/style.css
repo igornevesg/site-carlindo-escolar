@@ -165,6 +165,16 @@
                                     color: white;
                                     text-align: left;
                                 }
+                                .confira {
+                                    text-decoration: none;
+                                    color: white;
+                                    float: left;
+                                    margin-top: 20px;
+                                    font-size: 14px;
+                                }
+                                .confira:hover {
+                                    opacity: 0.7;
+                                }
                                 /* Terceira Div */
                                 
                                 .flex-4 {
@@ -335,13 +345,15 @@
                                     padding: 100px 22vw;
                                 }
                                 
-                                .flex-6 i {
+                                .setas {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    gap: 50px;  
                                     color: black;
-                                    font-size: 24px;
-                                    padding: 80px 50px 0px 35px;
-                                    position: relative;
-                                    left: 0px;
+                                    font-size: 24px;                                    
                                     margin: auto;
+                                    margin-top: 40px;
                                     cursor: pointer;
                                 }
                                 
@@ -507,7 +519,7 @@
                                 }
                                 
                                 iframe {
-                                    width: 24vw;
+                                    width: 20vw;
                                     border-radius: 10px;
                                 }
                                 
@@ -564,9 +576,6 @@
                                     .flex-5 {
                                         padding: 100px 20vw;
                                     }
-                                    .links {
-                                        left: 30px;
-                                    }
                                     .formulario {
                                         height: 614px;
                                     }
@@ -600,9 +609,12 @@
                                     .formulario {
                                         border-radius: 8px;
                                         padding: 47px;
-                                        height: 620px;
-                                        width: 35vw;
+                                        height: 650px;
+                                        width: 32vw;
                                         margin: auto;
+                                    }
+                                    iframe {
+                                        width: 22   vw;
                                     }
                                     .formulario p {
                                         white-space: normal;
@@ -620,7 +632,7 @@
                                     }
                                     .social {
                                         left: 320px;
-                                        bottom: 160px;
+                                        bottom: 190px;
                                     }
                                 }
                                 
@@ -688,6 +700,22 @@
                                     h4 {
                                         left: 0;
                                     }
+                                    
+                                    .veiculos i {
+                                        font-size: 9vw;
+                                    }
+                                    .motoristas i {
+                                        font-size: 9vw;
+                                    }
+                                    .monitoras i {
+                                        font-size: 9vw;
+                                    }
+                                    .experiencia i {
+                                        font-size: 9vw;
+                                    }
+                                    .flex-6 {
+                                        padding: 100px 50px;
+                                    }
                                     .flex-contato {
                                         display: flex;
                                         flex-direction: column;
@@ -724,21 +752,6 @@
                                     .formulario textarea {
                                         width: 40vw;
                                         top: 0;
-                                    }
-                                    .veiculos i {
-                                        font-size: 9vw;
-                                    }
-                                    .motoristas i {
-                                        font-size: 9vw;
-                                    }
-                                    .monitoras i {
-                                        font-size: 9vw;
-                                    }
-                                    .experiencia i {
-                                        font-size: 9vw;
-                                    }
-                                    .flex-6 {
-                                        padding: 100px 50px;
                                     }
                                 }
                                 
@@ -990,24 +1003,7 @@
                                         font-size: 30px;
                                         white-space: initial;
                                     }
-                                    .formulario {
-                                        width: 82vw;
-                                        height: 580px;
-                                    }
-                                    .formulario p {
-                                        font-size: 24px;
-                                        margin-bottom: 20px;
-                                    }
-                                    .formulario input {
-                                        width: 55vw;
-                                    }
-                                    .formulario textarea {
-                                        width: 55vw;
-                                        margin-top: 5px;
-                                    }
-                                    .maps {
-                                        width: 82vw;
-                                    }
+                                    
                                     .veiculos {
                                         width: 300px;
                                         height: 300px;
@@ -1070,15 +1066,33 @@
                                         width: 70vw;
                                         margin-top: 20px;
                                     }
+                                    .formulario {
+                                        width: 82vw;
+                                        height: 580px;
+                                    }
+                                    .formulario p {
+                                        font-size: 24px;
+                                        margin-bottom: 20px;
+                                    }
+                                    .formulario input {
+                                        width: 55vw;
+                                    }
+                                    .formulario textarea {
+                                        width: 55vw;
+                                        margin-top: 5px;
+                                    }
+                                    .maps {
+                                        width: 82vw;
+                                    }
+                                    .social {
+                                        font-size: 24px;
+                                    }
                                 }
                                 
                                 @media screen and (max-width:375px) {
                                     .formulario {
                                         left: 0px;
-                                    }
-                                    h6 {
-                                        margin-left: -10px;
-                                    }
+                                    }   
                                     .depoimento {
                                         right: 10px;
                                     }
