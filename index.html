@@ -4,148 +4,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Carlindo Guimarães" />
+    <meta name="description" content="Carlindo Escolar, Carlindo Guimarães, Transporte Escolar, Transporte Escolar em Montes Claros, Transporte Escolar e Universitário, Universitário, Escola, Escolar">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carlindo Escolar | Transporte Escolar e Universitário</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="container">
-    <header class="flex-1">
-        <a href="https://carlindoescolar.com.br/index.html"> <img class="logo" src="./Images/logo-site.png" alt="Logotipo Carlindo Escolar"> </a>
-        <i onclick="abrirMenu()" class="fa fa-bars" id="botao-menu"></i>
-        <nav class="topnav" id="myTopNav">
-            <ul class="inicio">
-                <a href="https://carlindoescolar.com.br/index.html">Início</a>
-                <a href="./Sobre Nos/sobre-nos.html">Sobre Nós</a>
-                <a href="./Itinerario/itinerario.html">Itinerário  </a>
-                <a href="./Frota/frota.html">Frota</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#contrate" id="botao-sem-borda"><button type="button" class="botao-nav">Contrate Já</button></a>
-            </ul>
-        </nav>
-    </header>
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!--HEADER-->
+        <header id="header" data-transparent="true" data-fullwidth="true">
+            <div class="header-inner">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="https://www.carlindoescolar.com.br"><img src="Images/logo-site.png" alt=""></a>
+                    </div>
+                    <!--End: Logo-->
+                    <!--Navigation Resposnive Trigger-->
+                    <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a> </div>
+                    <!--end: Navigation Resposnive Trigger-->
+                    <!--Navigation-->
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="https://www.carlindoescolar.com.br">Início</a></li>
+                                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                                    <li><a href="itinerario.html">Itinerário</a></li>
+                                    <li><a href="frota.html">Frota</a></li>
+                                    <li><a class="scroll-to" href="#contato">Contato</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!--END: HEADER-->
+        <div class="flex-2">
+            <div class="item1-content1">
+                <h1> Nós cuidamos do seu filho! </h1>
+                <p>Você que nos confia a segurança do(a) seu(a) filho(a) a caminho do aprendizado, estará sempre tranquilo ao contratar os nossos serviços </p>
+                <a href="#contato" class="scroll-to"><button type="button" class="botao-nav" id="botao2">Contrate Já</button></a>
+            </div>
+            <div class="item2-content1"> <img class="imagem-filhos" src="./Images/filhos.png" alt="Monitora segurando a mão de crianças"> </div>
+        </div>
+        <div class="flex-3">
+            <div class="item1-content2">
+                <h2> Segurança em primeiro lugar </h2>
+                <p class="p2">Seja a caminho da escola ou faculdade, a segurança dos nossos passageiros vem sempre em primeiro lugar, com cintos de segurança em todos os assentos e com saídas e equipamentos de emergência em dia</p>
+                <a class="confira" href="./Frota/frota.html"><span>Confira nossa frota <i class=" fa fa-arrow-right" aria-hidden="true" ></i></span></a>
+            </div>
+            <div class="item2-content2">
+                <img class="imagem-onibus" src="./Images/onibus.png" alt="vetor de onibus escolar">
+            </div>
+        </div>
+        <div class="flex-4" id="servicos">
+            <h3> Está procurando por qual serviço? </h3>
+            <hr class="space">
+            <div class="fotos">
+                <div class="escola">
+                    <a href="#contrate"><img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo"></a>
+                </div>
+                <div class="facul">
+                    <a href="#contrate"><img class="foto-jovem" src="./Images/faculdade.jpg" alt="universitária segurando cadernos"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section -->
+    <section class="flex-5">
+        <div class="container">
+            <!--Heading -->
+            <div class="heading-text heading-section text-center">
+                <h4>Por que nos escolher?</h4>
+            </div>
+            <hr class="space">
+            <!--END: Heading -->
+            <!--Large icons-->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="icon-box effect large light">
+                        <div class="icon"><i class="fa fa-bus" aria-hidden="true"></i></div>
+                        <h6>Veículos Vistoriados</h6>
+                        <p class="p2">Veículos vistoriados em conformidade com a lei, apra garantir a segurança do transporte</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-box effect large light">
+                        <div class="icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+                        <h6>Motoristas Credenciados</h6>
+                        <p class="p2">Todos nossos motoristas são credenciados pelo DETRAN/MG, em conformidade com a lei</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-box effect large light">
+                        <div class="icon"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+                        <h6>Monitoras Qualificadas</h6>
+                        <p class="p2">Monitoras prontas para garantir um transporte de qualidade aos passageiros</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icon-box effect large light">
+                        <div class="icon"><i class="fa fa-certificate" aria-hidden="true"></i></div>
+                        <h6>Experiência</h6>
+                        <p class="p2">23 anos de experiência no ramo de Transporte Escolar</p>
+                    </div>
+                </div>
+            </div>
+            <!--END: Large icons-->
+            <hr class="space">
+        </div>
+    </section>
+    <!-- end: Section -->
+    <!-- Testimonial Carousel -->
+    <section>
+        <div class="container">
+            <!-- Testimonials -->
+            <div class="carousel arrows-visibile testimonial testimonial-single testimonial-left" data-items="1" data-autoplay="true" data-loop="true" data-autoplay="3500">
+                <!-- Testimonials item -->
+                <div class="testimonial-item">
+                    <img src="Images/perfil.png" alt="">
+                    <p>O melhor da cidade! Sempre cumprindo o horário e trazendo total segurança para os passageiros</p>
+                    <span>Igor Neves Guimarães</span>
+                    <span>Universitário</span>
+                </div>
+                <!-- end: Testimonials item-->
+            </div>
+            <!-- end: Testimonials -->
+            <hr class="space">
 
-    <div class="flex-2">
-        <div class="item1-content1">
-            <h1> Nós cuidamos do seu filho! </h1>
-            <p>Você que nos confia a segurança do(a) seu(a) filho(a) a caminho do aprendizado, estará sempre tranquilo ao contratar os nossos serviços </p>
-            <a href="#contrate" id="botao-sem-borda"><button type="button" class="botao-nav" id="botao2">Contrate Já</button></a>
-        </div>
-        <div class="item2-content1"> <img class="imagem-filhos" src="./Images/filhos.png" alt="Monitora segurando a mão de crianças"> </div>
-    </div>
-    <div class="flex-3">
-        <div class="item1-content2">
-            <h2> Segurança em primeiro lugar </h2>
-            <p class="p2">Seja a caminho da escola ou faculdade, a segurança dos nossos passageiros vem sempre em primeiro lugar, com cintos de segurança em todos os assentos e com saídas e equipamentos de emergência em dia</p>
-            <a class="confira" href="./Frota/frota.html"><span>Confira nossa frota <i class=" fa fa-arrow-right" aria-hidden="true" ></i></span></a>
-        </div>
-        <div class="item2-content2">
-            <img class="imagem-onibus" src="./Images/onibus.png" alt="vetor de onibus escolar">
-        </div>
-    </div>
-    <div class="flex-4" id="servicos">
-        <h3> Está procurando por qual serviço? </h3>
-        <div class="fotos">
-            <div class="escola">
-                <a href="#contrate"><img class="foto-crianca" src="./Images/escolar.jpg" alt="criança escrevendo"></a>
-            </div>
-            <div class="facul">
-                <a href="#contrate"><img class="foto-jovem" src="./Images/faculdade.jpg" alt="universitária segurando cadernos"></a>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="flex-5">
-        <div class="blocos">
-            <h4>Por que nos escolher?</h4>
-            <div class="bloco1">
-                <div class="veiculos">
-                    <i class="fa fa-bus" aria-hidden="true" id="vetor-bus"></i>
-                    <p class="p-divs">Veículos Vistoriados</p>
-                    <span id="span_blocos">Veículos vistoriados em conformidade com a lei, para garantir a segurança do transporte</span>
-                </div>
-                <div class="motoristas">
-                    <i class="fa fa-address-card" aria-hidden="true" id="credencial"></i>
-                    <p class="p-divs">Motoristas Credenciados</p>
-                    <span id="span_blocos">Todos nossos motoristas são credenciados pelo DETRAN/MG, em conformidade com a lei</span>
-                </div>
-            </div>
-            <div class="bloco2">
-                <div class="monitoras">
-                    <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    <p class="p-divs">Monitoras Qualificadas</p>
-                    <span id="span_blocos">Monitoras prontas para garantir um transporte de qualidade aos passageiros</span>
-                </div>
-                <div class="experiencia">
-                    <i class="fa fa-certificate" aria-hidden="true"></i>
-                    <p class="p-divs">Experiência</p>
-                    <span id="span_blocos">23 anos de experiência no ramo de Transporte Escolar</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="flex-6">
-        <h5>Depoimentos de nossos clientes</h5>
-        <div class="depoimento">
-            <img src="./Images/perfil.png" alt="imagem do cliente">
-            <p>O melhor da cidade! Sempre cumprindo o horário e trazendo total segurança para os passageiros</p>
-            <span class="cliente-nome">Igor Neves Guimarães</span>
-            <span>Universitário</span>
-            <i class="fa fa-google"></i>
-        </div>
-        <div class="setas">
-            <i class="fa fa-chevron-left" aria-hidden="true" onclick="backward()"></i>
-            <i class="fa fa-chevron-right" aria-hidden="true" onclick="forward()"></i>
-        </div>
-    </div>
-    <div class="contact" id="contrate">
-        <h6>Contato</h6>
-        <div class="flex-contato">
-            <div class="endereco">
+            <div class="seperator"></div>
+
+            <!-- Contact -->
+            <section id="contato">
                 <div>
-                    <i class="fa fa-map-marker"></i>
-                    <address>Avenida das Américas, 165, Dr João Alves</address>
-                </div>
-                <div id="phone">
-                    <i class="fa fa-phone"></i>
-                    <span>(38)9 9156-5540 / (38) 9 9979-1992</span>
-                </div>
-                <div id="email">
-                    <i class="fa fa-envelope"></i>
-                    <span>carlindoescolar@gmail.com</span>
-                </div>
-                <div class="social">
-                    <a href="https://www.facebook.com/carlindoescolar/" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://wa.me/5538991565540" target="_blank" class="fa fa-whatsapp"></a>
-                    <a href="https://www.instagram.com/carlindoescolar" target="_blank" class="fa fa-instagram"></a>
-                </div>
-            </div>
-            <div class="map">
-                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.5832104971582!2d-43.855311184588224!3d-16.747635351583348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab549158e37c2f%3A0xb3b7b80412cab4b2!2sAv.%20das%20Am%C3%A9ricas%2C%20165%20-%20Vila%20Telma%2C%20Montes%20Claros%20-%20MG%2C%2039402-297!5e0!3m2!1spt-BR!2sbr!4v1595793695421!5m2!1spt-BR!2sbr"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h5 class="m-b-10">Contrate Já</h5>
+                                </div>
+                                <div class="col-lg-6 m-b-30">
+                                    <address>
+                                    <strong>Endereço</strong><br>
+                                    Avenida das Américas, 165<br>
+                                    Doutor João Alves<br>
+                                </address>
+                                    <strong>Telefone:</strong> (38) 9 9156-5540
+                                    <br>
+                                    <strong>Telefone:</strong> (38) 9 9979-1992
+                                    <br>
+                                    <strong>Email:</strong> carlindoescolar@gmail.com
+                                </div>
+                                <div class="col-lg-12 m-b-30">
+                                    <div class="social-icons social-icons-light social-icons-colored-hover">
+                                        <ul>
+                                            <li class="social-facebook"><a href="https://www.facebook.com/carlindoescolar/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li class="social-instagram"><a href="https://www.instagram.com/carlindoescolar" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                            <li class="social-xing"><a href="https://wa.me/5538991565540" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <form class="widget-contact-form" novalidate action="include/contact-form.php" role="form" method="post">
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="name">Name</label>
+                                        <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="email">Email</label>
+                                        <input type="email" aria-required="true" required name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="phone">Phone</label>
+                                        <input type="text" aria-required="true" name="widget-contact-form-phone" class="form-control required phone" placeholder="Enter your Phone Number">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea type="text" name="widget-contact-form-message" rows="8" class="form-control required" placeholder="Enter your Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-light" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+                                </div>
+                            </form>
 
-            </div>
-
-            <div class="formulario">
-                <form action="processa.php" name="meu-form" method="POST"></form>
-                <p>Entre em contato conosco!</p>
-                <input class="form-control" type="text" name="nome" id="name" placeholder="Nome">
-                <input id="input_email" class="form-control" type="email" name="email" id="email" placeholder="E-mail">
-                <input class="form-control" type="tel" name="contactnum" id="contactnum" placeholder="Número de Contato">
-                <textarea name="mensagem" class="form-control" cols="50" rows="4" placeholder="Mensagem"></textarea>
-                <input class="button-msg" type="submit" name="submit" value="Enviar mensagem">
-                <a href="https://wa.me/5538991565540" target="_blank"> <input class="button-wpp" type="button" value="Whatsapp"></a>
-                <span class="disp-rota">*Verifique disponibilidade de rotas</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end: Contact -->
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2020 Carlindo Escolar - All Rights Reserved. <br>Feito com ❤️ por <a href="https://grupotecz.com" target="_blank" rel="noopener">Tecz</p></a> </div>
+                </div>
             </div>
         </div>
-        <div class="fim">
-            <p class="copy">Copyright &copy; Carlindo Escolar</p>
-            <p class="white-text">Feito com ❤️ por Tecz</p>
-        </div>
-        <script src="./js/menu.js"></script>
+        <!-- end: Footer -->
+        <!-- end: Body Inner -->
+        <!-- Scroll top -->
+        <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+        <!--Plugins-->
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+        <!--Template functions-->
+        <script src="js/functions.js"></script>
 </body>
 
 </html>
